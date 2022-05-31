@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageInfo>
+  <!-- Edit friendlyNameEnglish and languageWorkerClass -->
+  <!-- e.g. English -->
+  <friendlyNameEnglish>PortugueseBrazilian</friendlyNameEnglish>
+  <canBeTiny>true</canBeTiny>
+  <!-- e.g. LanguageWorker_English -->
+  <languageWorkerClass>LanguageWorker_PortugueseBrazilian</languageWorkerClass>
+</LanguageInfo>

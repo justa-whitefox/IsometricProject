@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Kind animals get this hediff. -->
+
+  <SP_Hediff_AnimalKind.label>Personalidade (Dócil)</SP_Hediff_AnimalKind.label>
+  <SP_Hediff_AnimalKind.description>Este animal tem uma personalidade dócil. Ele irá se afagar nos colonos com mais frequência.</SP_Hediff_AnimalKind.description>
+
+
+  <!-- Intense animals get this hediff. -->
+
+  <SP_Hediff_AnimalIntense.label>Personalidade (Intensa)</SP_Hediff_AnimalIntense.label>
+  <SP_Hediff_AnimalIntense.description>Este animal tem uma personalidade intensa. Ele dará mais dano quando atacar.</SP_Hediff_AnimalIntense.description>
+
+
+  <!-- Energetic animals get this hediff. -->
+
+  <SP_Hediff_AnimalEnergetic.label>Personalidade (Energética)</SP_Hediff_AnimalEnergetic.label>
+  <SP_Hediff_AnimalEnergetic.description>Este animal tem uma personalidade energética. Ele irá se mover um pouco mais rápido.</SP_Hediff_AnimalEnergetic.description>
+
+
+  <!-- Calm animals get this hediff. -->
+
+  <SP_Hediff_AnimalCalm.label>Personalidade (Calma)</SP_Hediff_AnimalCalm.label>
+  <SP_Hediff_AnimalCalm.description>Este animal tem uma personalidade calma. Seu movimento estável permite ele carregar mais itens e carregar mais peso em caravanas.</SP_Hediff_AnimalCalm.description>
+
+
+</LanguageData>

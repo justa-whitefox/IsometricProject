@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SP_Animal_BadBoy.label>mau(a) {0}</SP_Animal_BadBoy.label>
+  <SP_Animal_Mischief.label>travesso(a)</SP_Animal_Mischief.label>
+  <SP_Animal_FussyEater.label>comedor(a) espalhafatoso(a)</SP_Animal_FussyEater.label>
+  <SP_Animal_Bully.label>bully</SP_Animal_Bully.label>
+  <SP_Animal_HouseplantEater.label>comedor(a) de plantas da casa</SP_Animal_HouseplantEater.label>
+  <SP_Animal_ShoeGnawer.label>mastigador(a) de sapatos</SP_Animal_ShoeGnawer.label>
+  <SP_Animal_TerritorialWarlord.label>chefão(a) territorial</SP_Animal_TerritorialWarlord.label>
+  <SP_Animal_BarkingEnthusiast.label>entusiasta de latidos</SP_Animal_BarkingEnthusiast.label>
+  <SP_Animal_FeetBiter.label>mordedor(a) de pés</SP_Animal_FeetBiter.label>
+  <SP_Animal_NeighbourChaser.label>perseguidor(a) de vizinhos</SP_Animal_NeighbourChaser.label>
+  <SP_Animal_GreedyFetcher.label>buscador(a) mesquinho(a)</SP_Animal_GreedyFetcher.label>
+  <SP_Animal_PerpetualSnarler.label>rosnador(a) perpétuo(a)</SP_Animal_PerpetualSnarler.label>
+  <SP_Animal_FancyPurebred.label>raça pura chique</SP_Animal_FancyPurebred.label>
+  <SP_Animal_MoodyDiva.label>divo(a) temperamental</SP_Animal_MoodyDiva.label>
+  <SP_Animal_Rascal.label>malandro(a)</SP_Animal_Rascal.label>
+  <SP_Animal_Stalker.label>perseguidor(a)</SP_Animal_Stalker.label>
+  <SP_Animal_SpoiledPup.label>filhote mimado</SP_Animal_SpoiledPup.label>
+  <SP_Animal_MailmansNightmare.label>pesadelo do carteiro</SP_Animal_MailmansNightmare.label>
+  <SP_Animal_ExtremeHorndog.label>promiscuidade ambulante</SP_Animal_ExtremeHorndog.label>
+  <SP_Animal_Whirlwind.label>redemoinho da destruição</SP_Animal_Whirlwind.label>
+  <SP_Animal_Sexual.label>acidente iminente</SP_Animal_Sexual.label>
+
+
+</LanguageData>

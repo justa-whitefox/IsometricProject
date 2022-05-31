@@ -1,0 +1,6 @@
+[v. 0.0.0]
+    > Project Created And Named 'isometric Game' in 'pessoalProject' folder
+    > Solution And References Folder Created
+    > Add Eldritch And Cave Of Qud References
+	> adding refs: AI, apparel, camera, creaturesModels, ragdoll, skeleton, and traits
+	> renaming project name to 'IsometricProject'

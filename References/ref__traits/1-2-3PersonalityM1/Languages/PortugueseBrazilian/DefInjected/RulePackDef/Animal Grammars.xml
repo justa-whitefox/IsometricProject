@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SP_AnimalPersonalityDesc.rulePack.rulesStrings.0>main->[PAWN_nameDef] é um animal de natureza [ROOT_labelCol].</SP_AnimalPersonalityDesc.rulePack.rulesStrings.0>
+  <SP_AnimalPersonalityDesc.rulePack.rulesStrings.1>secondary->[PAWN_pronoun] é conhecido por ser o(a) [VAR_labelCol].</SP_AnimalPersonalityDesc.rulePack.rulesStrings.1>
+
+
+</LanguageData>

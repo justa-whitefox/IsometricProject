@@ -1,0 +1,43 @@
+[tecnology and nomenclatures]
+    <tecnology>
+        * language: c++
+        * graphic API: openGL
+        * game engine: ???
+        * models: blender
+		* image files: XnViewMP
+			- .map, .BGA, .DDS, .BMP
+		* BSA files: bethesda archive extractor
+			- .BSA
+		* refs: TES5Edit
+			- .esp
+
+    <version nomeclature>
+        * scheme: semantic versoning
+        * how it works: major.minor.patch.pre-release tag
+            > 1.4.0b
+            > 1: major version, bigger changers with high risks
+            > 4: minor version, new non-breaking features
+            > 0: patch version, other non-breaking and bugfix features
+            > b: pre-release tag, show the state of the project, -alpha, -beta, 
+
+[mechanics]
+	<systems>
+		> trait systems
+		> mutation systems
+		> cook systems
+        > inventory system
+        > equipment system
+		
+	<world generation>
+		> procedure generation
+		> starting map
+		
+    <assets>
+        > skeletons and animation rigs 
+        > animals models
+        > npcs models
+        > player models
+        > houses models
+        > tree models
+        > grass models
+        

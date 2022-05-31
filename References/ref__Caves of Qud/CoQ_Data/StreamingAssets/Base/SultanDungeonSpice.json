@@ -1,0 +1,18 @@
+{
+  "spice": 
+  {
+    "adjectives": 
+    {
+      "*default": 
+      {
+        "floor": [ "glassblower", "window maker" ],
+        "wall": [ "fulcrete" ]
+      },
+
+      "glass": 
+      {
+        "floor": [ "glassblower", "window maker" ],
+        "wall": [ "glass", "sand" ]
+      }
+   }
+}

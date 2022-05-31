@@ -1,0 +1,2064 @@
+﻿<?xml version="1.0" encoding="utf-8"?><doc><assembly><name>Assembly-CSharp</name></assembly><members><member name="T:XRL.World.Parts.Skill.TenfoldPath_Hod">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Ret">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Khu">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Vur">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Ket">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Tza">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Sed">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Yis">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Bin">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Skill.TenfoldPath_Hok">
+            This part is not used in the base game.
+        </member><member name="M:XRL.World.Parts.Mutation.BaseMutation.GetTemporaryLevels"><summary>
+            For determining how many points of the mutation are "permanent" this will calculate the number of bonus levels
+            added by Adrenal Control, temporary boosts from food and gear, and bonuses to physical and mental mutations.
+            </summary><returns>Number of levels attributable to a temporary boost.</returns></member><member name="M:XRL.World.Parts.Mutation.BaseDefaultEquipmentMutation.TryGetRegisteredSlot(XRL.World.Parts.Body,System.String,XRL.World.BodyPart@,System.Boolean)"><returns>
+            True if registration exists and is valid, false if new registration should be made.
+            Can still output null for a true case if dismembered.
+            </returns></member><member name="T:XRL.World.Parts.Mutation.WeakHeart">
+            This part is not used in the base game.
+        </member><member name="F:XRL.World.Parts.Mutation.ReflectShame.Duration"><summary>Shamed effect duration.</summary></member><member name="F:XRL.World.Parts.Mutation.ReflectShame.Radius"><summary>Affected target radius.</summary></member><member name="T:XRL.World.Parts.Mutation.Telekinesis">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.ModNormalizing"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, reality stabilization strength levels for
+            weapon applications are increased by ((power load - 100) / 30,
+            i.e. 10 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.PartsGas"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, a chance to take effect that is below 100
+            will be increased by ((power load - 100) / 30), i.e. 10 for the
+            standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModMetallized">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Displacer"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, maximum teleport distance is increased by
+            the standard power load bonus, i.e. 2 for the standard overload power
+            load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.DismemberAdjacentHostiles"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, ChanceToActivate and ChancePerHostile will,
+            if less than 100, be increased by a relative percentage of
+            ((power load - 100) / 10), i.e. 30% for the standard overload power
+            load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.GasTumbler"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the gas multiplier is increased and dispersal
+            multiplier is decreased by a percentage equal to ((power load - 100) / 10),
+            i.e. 30% for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.AccelerativeTeleporter"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, teleport distance is increased by
+            a percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.LatchesOn"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is set to
+            true, which it is not by default, save targets and damage from auto
+            attacks are increased by the standard power load bonus, i.e. 2 for
+            the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModMorphogenetic"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, save targets to resist the effect are
+            increased by the standard power load bonus, i.e. 2 for the standard
+            overload power load of 400.
+            </remarks></member><member name="F:XRL.World.Parts.StrideMason.DynamicCharge"><summary>Calculate charge cost based on blueprint HP/AV.</summary></member><member name="F:XRL.World.Parts.StrideMason.Imitate"><summary>Copy the appearance of the sourced object, not just its blueprint.</summary></member><member name="T:XRL.World.Parts.TemperatureOnEntering"><remarks>
+            overload behavior: temperature changes are increased by a percentage
+            equal to ((power load - 100) / 10), i.e. 30% for the standard overload
+            power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.TemperatureOnHit"><remarks>
+            overload behavior: temperature changes are increased by a percentage
+            equal to ((power load - 100) / 10), i.e. 30% for the standard overload
+            power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.TemperatureAdjuster"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is set to
+            true, which it is not by default, temperature changes are increased
+            in magnitude by a percentage equal to ((power load - 100) / 10), i.e.
+            30% for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModDisplacer"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the maximum teleport distance is increased
+            by the standard power load bonus, i.e. 2 for the standard overload
+            power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.GasShame">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.DischargeOnHit"><remarks>
+            overload behavior: damage and voltage are increased by the standard
+            power load bonus, i.e. 2 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.IntPropertyChanger"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is set to
+            true, which it is not by default, the property change is increased
+            in magnitude by the standard power load bonus, i.e. 2 for the standard
+            overload power load of 400. ("Magnitude" change means a negative
+            amount will have two subtracted, not two added.)
+            </remarks></member><member name="T:XRL.World.Parts.AutomatedExternalDefibrillator">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.Teleprojector"><remarks>
+            overload behavior: the player's effective level for dominating the
+            target is increased by the standard power load bonus, i.e. 2 for the
+            standard overload power load of 400, and charge use is increased
+            treating the power load as a percentage.
+            </remarks></member><member name="T:XRL.World.Parts.ElementalDamage"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is not by default, chance to activate is increased by a
+            percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400, and damage is increased
+            by the standard power load bonus, i.e. 2 for the standard overload
+            power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.SlipRing"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, save bonus and activation chance are
+            increased by a percentage equal to ((power load - 100) / 10),
+            i.e. 30% for the standard overload power load of 400.
+            </remarks></member><member name="M:XRL.World.Parts.LiquidVolume.GetLiquidExposureMillidrams(XRL.World.GameObject,System.String)"><summary>
+            If the specified object is in contact with this liquid volume,
+            calculates how much of a specified liquid the object is exposed to,
+            in millidrams.
+            </summary><param Name="obj">
+            the object whose exposure we're checking
+            </param><param Name="Liquid">
+            the ID of the liquid we're checking exposure to
+            </param><returns>
+            amount of the liquid the object is exposed to, in millidrams (divide
+            by 1000 to get drams)
+            </returns></member><member name="M:XRL.World.Parts.LiquidVolume.MingleAdjacent(XRL.World.Parts.LiquidVolume)"><summary>
+            Mingles this liquid volume with another as appropriate to them being
+            adjacent and free to intermix, as if you had a divider between two
+            halves of a bottle then removed it.
+            </summary><param Name="other">
+            The other liquid volume to mingle with.
+            </param></member><member name="T:XRL.World.Parts.ModHUD">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.EnergyAmmoLoader"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, damage of projectiles that are not set to
+            cause 0 damage is increased by the standard power load bonus, i.e.
+            2 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModAntiGravity">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.GasOnEntering"><remarks>
+            overload behavior: gas density produced is increased by a percentage
+            equal to ((power load - 100) / 10), i.e. 30% for the standard overload
+            power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.GasOnHit"><remarks>
+            overload behavior: gas density produced is increased by a percentage
+            equal to ((power load - 100) / 10), i.e. 30% for the standard overload
+            power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModElectrified"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the item's tier for purposes of calculating
+            damage behavior is increased by the standard power load bonus, i.e.
+            2 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.BodyPartInventory">
+            Loads severed body parts into the parent object as inventory, as for
+            example with the wild-eyed watervine merchant and his inventory of
+            naphtaali and goatfolk body parts.
+        </member><member name="T:XRL.World.Parts.NightSightInterpolators"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, effective radius is increased by a
+            percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.StunOnHit"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, chance to activate is increased by a
+            percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400, and save targets are
+            increased by the standard power load bonus, i.e. 2 for the standard
+            overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModRelicFreezing"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the item's tier for purposes of calculating
+            damage is increased by the standard power load bonus, i.e. 2 for the
+            standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ActiveLightSource"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, light radius is increased by the standard
+            power load bonus, i.e. 2 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.MentalScreen">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.IActivePart"><remarks>
+            overload behavior: if <see cref="F:XRL.World.Parts.IActivePart.IsPowerLoadSensitive" /> is true,
+            charge consumption is adjusted treating the power load as a percentage
+            (i.e. the standard overload power load of 400 multiplies charge
+            consumption by 4).
+            </remarks></member><member name="M:XRL.World.Parts.IActivePart.ForeachActivePartSubject(System.Action{XRL.World.GameObject},System.Boolean)"><summary>
+            A non-cancelable form of <c>ForeachActivePartSubjectWhile</c>, just for foreach over everthing.
+            <b>PERFORMANCE NOTE:</b> If you are calling this from inside a tight loop on a bunch of things, please use
+            <c>ForeachActivePartSubjectWhile</c> directly, this interface can create extra garbage.
+            </summary></member><member name="M:XRL.World.Parts.IActivePart.ForeachActivePartSubjectUntil(System.Predicate{XRL.World.GameObject},System.Boolean)"><summary>
+            The negated form of <c>ForeachActivePartSubjectWhile</c>, returning true will exit the foreach early,
+            and cause the return value to be true.  It returns false on an empty set or if every predicate returns false.
+            <b>PERFORMANCE NOTE:</b> If you are calling this from inside a tight loop on a bunch of things, please use
+            <c>ForeachActivePartSubjectWhile</c> directly, this interface can create extra garbage.
+            </summary></member><member name="M:XRL.World.Parts.IActivePart.ForeachActivePartSubjectWhile(System.Predicate{XRL.World.GameObject},System.Boolean)"><summary>
+            Finds the GameObjects that this part <c>WorksFor(GameObject)</c> in the ParentObjects's context,
+            passing each to your predicate.  Returning false will exit the foreach early, and cause the return value to be false.
+            It returns true on an empty set or if every predicate returns true.
+            </summary></member><member name="T:XRL.World.Parts.RealityStabilization"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is set to
+            true, which it is not by default, and ChargeUse is over 0 and
+            Strength is not explicitly set so that ChargeStrengthFactor is in
+            play, the effective value of ChargeStrengthFactor will be increased
+            by ((power load - 100) / 30), i.e. 10 for the standard overload power
+            load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.PlayerDeathAchievement"><summary>
+            Widget to listen for a player death in current zone by Killer, with Weapon.
+            </summary></member><member name="T:XRL.World.Parts.ElectricalDischargeLoader"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the adjustment to charge used that is
+            implemented by IActivePart (adjusting by power load as a percentage)
+            applies to the charge-based damage/voltage calculations here,
+            multiplied by OverloadFactor; so, for example, if base charge draw
+            is 100, overloaded draw is 400, and OverloadFactor is the default
+            of 1/6, effective draw for purposes of damage and voltage calculation
+            is 100 + ((400 - 100) * (1 / 6)) = 150.
+            </remarks></member><member name="T:XRL.World.Parts.ModFlaming"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the item's tier for purposes of calculating
+            damage is increased by the standard power load bonus, i.e. 2 for the
+            standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.GeomagneticDisc"><remarks>
+            overload behavior: the range, number of bounces, and damage roll are
+            increased by the standard power load bonus, i.e. 2 for the standard
+            overload power load of 400, and charge usage is adjusted using power
+            load as a percentage.
+            </remarks></member><member name="T:XRL.World.Parts.Waldopack">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.ModFreezing"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the item's tier for purposes of calculating
+            damage is increased by the standard power load bonus, i.e. 2 for the
+            standard overload power load of 400.
+            </remarks></member><member name="F:XRL.World.Parts.ForceProjector.lastResyncTurn"><summary>
+                This is a workaround for a cycle discovered 8-7-2021 -BB
+                at XRL.World.Parts.ForceProjector.SyncCharge () [0x00009] in G:\Workspace\caves-of-qud\Assets\XRL Application\World\Game Objects\Parts\Furniture\ForceProjector.cs:334 
+                at XRL.World.Parts.ForceProjector.ResyncCharge () [0x00007] in G:\Workspace\caves-of-qud\Assets\XRL Application\World\Game Objects\Parts\Furniture\ForceProjector.cs:342 
+                at XRL.World.Parts.ForceProjector.ShutDownProjections () [0x0006e] in G:\Workspace\caves-of-qud\Assets\XRL Application\World\Game Objects\Parts\Furniture\ForceProjector.cs:542 
+                at XRL.World.Parts.ForceProjector.ForceProjectorDeploy (System.Collections.Generic.List`1[T] TargetCells) [0x00000] in G:\Workspace\caves-of-qud\Assets\XRL Application\World\Game Objects\Parts\Furniture\ForceProjector.cs:584 
+                at XRL.World.Parts.ForceProjector.MaintainProjections (System.Boolean FromDeploy) [0x0061b] in G:\Workspace\caves-of-qud\Assets\XRL Application\World\Game Objects\Parts\Furniture\ForceProjector.cs:517 
+                at XRL.World.Parts.ForceProjector.SyncCharge () [0x00009] in G:\Workspace\caves-of-qud\Assets\XRL Application\World\Game Objects\Parts\Furniture\ForceProjector.cs:334 
+            </summary></member><member name="T:XRL.World.Parts.ModSmart">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.DecoyHologramEmitter"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, save difficulty to resist being distracted
+            by the hologram is increased by the standard power load bonus, i.e.
+            2 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.Pounder">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Parts.ModNanon"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the chance of taking effect is increased by
+            the standard power load bonus, i.e. 2 for the standard overload power
+            load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.PointDefense"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, a chance to target a given projectile that
+            is over 0 will be increased by ((power load - 100) / 30), i.e.
+            10 for the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ComputeNode"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, compute power output is increased by a
+            percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModCoProcessor"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the item's tier for purposes of calculating
+            bonuses is increased by the standard power load bonus, i.e. 2 for
+            the standard overload power load of 400.
+            </remarks></member><member name="F:XRL.World.Parts.Explores.WaitForLeader"><summary>Wait until leader adjacent, otherwise wait until explored.</summary></member><member name="T:XRL.World.Parts.EquipStatBoost"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is set to be
+            true, which it is not by default, the standard power load bonus (i.e.
+            2 for the standard overload power load of 400) is treated as an
+            additional stat bonus to attempt to distribute according to the
+            pattern established by the configured stat bonuses.  If there is only
+            one stat being modified, the bonus is added to that stat.  If a number
+            of stats equal to the bonus is being modified, each is increased by 1.
+            Otherwise, the configured bonuses are sorted first by descending order
+            of bonus size, then alphabetically, and the bonus amount is distributed
+            by moving down this list adding one at a time, starting over at the top
+            if the end is reached, until the bonus is exhausted.
+            </remarks></member><member name="T:XRL.World.Parts.GlimmerAlteration"><remarks><para>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, glimmer alteration is increased in magnitude
+            by a percentage equal to ((power load - 100) / 10), i.e. 30% for the
+            standard overload power load of 400.
+            </para><para>
+            This part is not used in the base game.
+            </para></remarks></member><member name="T:XRL.World.Parts.Gaslight"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, the damage roll used when the device is charged
+            is increased by the standard power load bonus, i.e. 2 for the standard
+            overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.AdjustSpecialEffectChances"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, adjustments are multiplied by a
+            percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400.
+            </remarks></member><member name="M:XRL.World.Parts.Body.CalculateMobilitySpeedPenalty(System.Boolean@)">
+            Determines the speed penalty we should have based on our current
+            intact and dismembered mobility-providing limbs.
+        </member><member name="T:XRL.World.Parts.NightVision"><remarks>
+            overload behavior: if <see cref="!:IsPowerLoadSensitive" /> is true,
+            which it is by default, effective radius is increased by a
+            percentage equal to ((power load - 100) / 10), i.e. 30% for
+            the standard overload power load of 400.
+            </remarks></member><member name="T:XRL.World.Parts.ModNanochelated">
+            This part is not used in the base game.
+        </member><member name="T:XRL.World.Effects.ICamouflageEffect">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.Effects.CardiacArrest">
+            This class is not used in the base game.
+        </member><member name="M:XRL.World.Effects.ProceduralCookingEffect.CreateSpecific(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})"><summary>
+            Creates a procedural effect from specific units, triggers and actions.
+            </summary><param name="units">All these units are applied.</param><param name="triggers">One trigger is selected at random, if supplied and actions are supplied.</param><param name="actions">One action is selected at random, if supplied and triggers are supplied.</param><returns /></member><member name="T:XRL.World.Effects.UrbanCamouflaged">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.Effects.FoliageCamouflaged">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.ZoneBuilders.Pitted"><summary>
+            Should typically be added as a builder to zones in a single column on Z level 10 through 13 of an area that will be pitted.
+            </summary></member><member name="T:XRL.World.PsionicSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTelepathy">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenEmpathy">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenExertWill">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenApplyIntellect">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenCalmMind">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenInvokeHighlyEntropicBeing">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenAttributeSacrifice">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenDiscipline">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathKet">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathHok">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathBin">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathSed">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathVur">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathRet">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathTza">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathHod">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathYis">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenTenfoldPathKhu">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenCreationKnowledge">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenApplyAncientLore">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsionicSifrahTokenPrayHumbly">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.HackingSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.Conversations.Parts.GiveReshephSecret"><summary>Share a secret from Resheph's life to gain some XP.</summary></member><member name="T:XRL.World.Conversations.Parts.AddSlynthCandidate"><summary>Adds the current location as a possible sanctuary for the slynth during the quest Landing Pads.</summary></member><member name="F:XRL.World.Conversations.Parts.AddSlynthCandidate.Sanctuary"><summary>Optional explicit sanctuary name to use instead of zone name.</summary></member><member name="F:XRL.World.Conversations.Parts.AddSlynthCandidate.Plural"><summary>Whether the explicit sanctuary name is plural.</summary></member><member name="T:XRL.World.Conversations.Parts.ChangeTarget"><summary>Change target element if all/any predicates are satisfied.</summary></member><member name="F:XRL.World.Conversations.Parts.ChangeTarget.Target"><summary>The alternate navigation target if predicates match.</summary></member><member name="F:XRL.World.Conversations.Parts.ChangeTarget.Any"><summary>Require one predicate to match rather than all.</summary></member><member name="T:XRL.World.Conversations.Parts.TextInsert"><summary>Appends or prepends a text that can be either spoken or unspoken to the element.</summary></member><member name="T:XRL.World.Conversations.Parts.IPredicatePart"><summary>Base consumer of predicates to satisfy condition for a derived action.</summary><seealso cref="T:XRL.World.Conversations.Parts.ChangeTarget" /></member><member name="F:XRL.World.Conversations.IConversationPart.Priority"><summary>Controls the part's order of execution for events, higher values preceding lower ones.</summary></member><member name="M:XRL.World.Conversations.IConversationPart.Initialize"><summary>Called once when the part is constructed and added to its parent element.</summary></member><member name="M:XRL.World.Conversations.IConversationPart.Awake"><summary>Called once before the parent element is first queried for any activity.</summary></member><member name="M:XRL.World.Conversations.IConversationPart.TryGetState``1(System.String,``0@)"><summary>Retrieve and cast state associated with specified key.</summary></member><member name="T:XRL.World.Conversations.ColorTextEvent"><summary>Fired when coloring the display text of an element.</summary><see cref="T:XRL.World.Conversations.DisplayTextEvent" /></member><member name="T:XRL.World.Conversations.GetChoiceTagEvent"><summary>Fired when selecting an ending tag to apply to the display text such as [begin trade].</summary></member><member name="T:XRL.World.Conversations.GetTextElementEvent"><summary>Fired when choosing a text element for preparation and can control the chosen text.</summary></member><member name="T:XRL.World.Conversations.EnterElementEvent"><summary>Fired as an element is being entered and can prevent navigation.</summary></member><member name="T:XRL.World.Conversations.DisplayTextEvent"><summary>Fired before displaying the prepared text to screen.</summary><remarks>This is where you will typically add unspoken text like tooltips or other metagame information.</remarks></member><member name="T:XRL.World.Conversations.GetTargetElementEvent"><summary>Fired after leaving the current node and can control the navigation target.</summary></member><member name="T:XRL.World.Conversations.IsElementVisibleEvent"><summary>Fired when determining whether an element is possibly available for rendering and selection, after any predicates defined on the element.</summary></member><member name="T:XRL.World.Conversations.PrepareTextEvent"><summary>Fired when preparing spoken text for display after a node has been entered.</summary><remarks>This precedes the standard variable replacements like =subject.name= and allows setting a new Subject and Object.</remarks></member><member name="T:XRL.World.Conversations.EnteredElementEvent"><summary>Fired after an element has successfully been entered.</summary></member><member name="P:XRL.World.Conversations.Dialogue.Item(System.String)"><summary>Retrieve or set state associated with specified key.</summary><param name="Key">A nullable string.</param><returns><c>null</c> if Key not found.</returns></member><member name="M:XRL.World.Conversations.Dialogue.TryGetState``1(System.String,``0@)"><summary>Retrieve and cast state associated with specified key.</summary></member><member name="T:XRL.World.Conversations.ConversationEventAttribute"><summary>Marks a class for generation of conversation event partials.</summary></member><member name="T:XRL.World.Conversations.HideElementEvent"><summary>Fired when evaluating elements to display that are hidden by special outside conditions.</summary><remarks>One such condition is the last choice selected that will be hidden if navigation was successful but did not leave the current node.</remarks></member><member name="T:XRL.World.Conversations.LeftElementEvent"><summary>Fired after an element has successfully been exited.</summary></member><member name="T:XRL.World.Conversations.PredicateEvent"><summary>Fired by the IfCommand predicate and controls visibility similarly to IsElementVisibleEvent.</summary></member><member name="T:XRL.World.Conversations.LeaveElementEvent"><summary>Fired as an element is being left and can prevent navigation.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.ID"><summary>
+            An ID for this element, used for navigation, merging, and inheritance.
+            Not required to be unique, though still recommended.
+            </summary><see cref="F:XRL.World.Conversations.ConversationXMLBlueprint.Cardinal" /></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Name"><summary>The element's type, 'Node', 'Choice', 'Text', etc.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Text"><summary>The plain text content of this element.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Inherits"><summary>The ID of one or more base blueprints to inherit.</summary><example>Inherit a choice from a node in another conversation: 'ConversationID.NodeID.ChoiceID' -&gt; 'Barathrum.TombExplain3.QuestionsChoice'.</example><example>Inherit a choice from a node in this conversation: 'NodeID.ChoiceID' -&gt; 'TombExplain3.QuestionsChoice'.</example></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Cardinal"><summary>An incrementing suffix to distinguish elements with non-unique IDs.</summary><remarks>The default value of '1' is omitted from the final ID.</remarks></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.References"><summary>A count of references to this element from inheritors.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Distribute"><summary>Distribute this element to be inherited by its sibling elements of specified type.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Qualifier"><summary>Controls distribution behavior.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Load"><summary>Controls the behavior on a merge/inherit conflict.</summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Attributes"><summary>
+            A dictionary of attributes defined on this element.
+            These are typically consumed by delegates or parsed and assigned to writeable members.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationXMLBlueprint.Children"><summary>A list of child elements.</summary></member><member name="M:XRL.World.Conversations.ConversationXMLBlueprint.#ctor(XRL.World.Conversations.ConversationXMLBlueprint)"><summary>Shallow copy of original blueprint.</summary></member><member name="F:XRL.World.Conversations.Choice.Transient"><summary>Will not store its hash among visited choices.</summary></member><member name="T:XRL.World.Conversations.ConversationDelegate"><summary>
+            Indicates that a method is a conversation delegate.
+            Depending on the return type it is either registered as a Predicate (bool), Action (void) or Generator (IConversationPart).
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.Key"><summary>
+            The key used to invoke this delegate, defaults to method name.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.Inverse"><summary>
+            If this delegate is a conversation predicate, create another delegate returning the negated result of the first.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.InverseKey"><summary>
+            The key used to call the inverse delegate, defaults to IfNotXYZ should the original key follow the IfXYZ PascalCase pattern.
+            E.g. IfHaveQuest -&gt; IfNotHaveQuest.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.Speaker"><summary>
+            If this delegate is a conversation predicate or action, create another delegate with the speaker as the target instead of the player.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.SpeakerKey"><summary>
+            The key used to call the speaker delegate, defaults to IfSpeakerXYZ should the original key follow the IfXYZ PascalCase pattern.
+            E.g. IfHavePart -&gt; IfSpeakerHavePart, SetIntProperty -&gt; SetSpeakerIntProperty.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.SpeakerInverseKey"><summary>
+            The key used to call the inverse speaker delegate, defaults to IfSpeakerNotXYZ should the original key follow the IfXYZ PascalCase pattern.
+            E.g. IfHavePart -&gt; IfSpeakerNotHavePart.
+            </summary></member><member name="F:XRL.World.Conversations.ConversationDelegate.RequireKey"><todo>
+            The key used to call the requirement delegate, defaults to RequireXYZ should the original key follow the IfXYZ PascalCase pattern.
+            E.g. IfGenotype -&gt; RequireGenotype, RequireNotGenotype, RequireSpeakerNotGenotype.
+            </todo></member><member name="T:XRL.World.Conversations.DelegateContext"><remarks>Used to decouple parameters from delegate signature for mod compatibility.</remarks></member><member name="T:XRL.World.RebukingSifrah">
+            This class is not used in the base game.
+        </member><member name="M:XRL.World.WorldBuilders.JoppaWorldBuilder.popMutableLocationBlockOfTerrain(System.String,System.Predicate{Genkit.Location2D},System.Int32)"><summary>
+            Finds a radius x radius square of terrain and returns the center zone
+            </summary><param name="Terrain" /><param name="where" /><param name="radius" /><returns /></member><member name="T:XRL.World.ProselytizationSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.ItemNamingSifrah">
+            This class is not used in the base game.
+        </member><member name="P:XRL.World.IPronounProvider.Name">
+            The name of the category providing the pronouns: male, female, neuter, nonspecific, masculine, feminine, etc.
+        </member><member name="P:XRL.World.IPronounProvider.Generic">
+            Whether the pronoun-providing category is generic to the world, as opposed to being specific to an entity, species,
+            or culture.
+        </member><member name="P:XRL.World.IPronounProvider.Generated">
+            Whether the pronoun-providing category is procedurally generated.
+        </member><member name="P:XRL.World.IPronounProvider.Plural">
+            Whether the entity is plural.
+        </member><member name="P:XRL.World.IPronounProvider.PseudoPlural">
+            Whether the entity is treated plural only when being referred to by pronoun.
+        </member><member name="P:XRL.World.IPronounProvider.Subjective">
+            Subjective-case personal pronoun: he, she, it, they, etc.
+        </member><member name="P:XRL.World.IPronounProvider.Objective">
+            Objective-case personal pronoun: him, her, it, them, etc.
+        </member><member name="P:XRL.World.IPronounProvider.PossessiveAdjective">
+            Adjectival possessive pronoun: his, her, its, their, etc.
+        </member><member name="P:XRL.World.IPronounProvider.SubstantivePossessive">
+            Substantive possessive pronoun: his, hers, its, theirs, etc.
+        </member><member name="P:XRL.World.IPronounProvider.Reflexive">
+            Reflexive personal pronoun: himself, herself, itself, themselves, etc.
+        </member><member name="P:XRL.World.IPronounProvider.PersonTerm">
+            The term for a mature person with the pronouns: man, woman, etc.
+        </member><member name="P:XRL.World.IPronounProvider.ImmaturePersonTerm">
+            The term for an immature person with the pronouns: boy, girl, etc.
+        </member><member name="P:XRL.World.IPronounProvider.FormalAddressTerm">
+            Formal form of address: sir, madam, etc.
+        </member><member name="P:XRL.World.IPronounProvider.OffspringTerm">
+            Term for entity as offspring: son, daughter, etc.
+        </member><member name="P:XRL.World.IPronounProvider.SiblingTerm">
+            Term for entity as sibling: brother, sister, etc.
+        </member><member name="P:XRL.World.IPronounProvider.ParentTerm">
+            Term for entity as parent: father, mother, etc.
+        </member><member name="P:XRL.World.IPronounProvider.IndicativeProximal">
+            Proximal indicative pronoun: this, these.
+        </member><member name="P:XRL.World.IPronounProvider.IndicativeDistal">
+            Distal indicative pronoun: that, those.
+        </member><member name="P:XRL.World.IPronounProvider.UseBareIndicative">
+            Whether it is acceptable to use a bare indicative pronoun, for example
+            saying "look at that".  (This would be objectifying and insulting if
+            referring to a person; if one isn't being intentionally hostile one
+            would say either "look at him" or "look at that man" instead.)
+        </member><member name="M:XRL.World.GlobalLocation.#ctor(System.String)"><summary>
+            Expected to be in the format 'JoppaWorld.11.22.1.1.10@37,22'
+            </summary><param name="GlobalLocationSpec" /></member><member name="F:XRL.World.JoinPartyLeaderPossibleEvent.TargetCell"><summary>Approximate target cell, usually the leader's current cell. Can be replaced.</summary></member><member name="T:XRL.World.RealityDistortionSifrah">
+            This class is not used in the base game.
+        </member><member name="F:XRL.World.Skills.Cooking.CookingRecipe.DisplayName"><summary>
+            Don't read from this. Call GetDisplayName() instead.
+            </summary></member><member name="T:XRL.World.BeguilingSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.ExamineSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.HagglingSifrah">
+            This class is not used in the base game.
+        </member><member name="M:XRL.World.StatShifter.SetStatShift(System.String,System.Int32,System.Boolean)"><summary>Shift a stat on the owner by an amount, further calls to SetStatShift with the same stat will
+            undo the previous shift, and set to the new amount.</summary></member><member name="M:XRL.World.StatShifter.GetStatShift(System.String,System.Boolean)"><summary>Get the value of the stat shift (optional base value) applied by this object</summary></member><member name="M:XRL.World.StatShifter.GetStatShift(XRL.World.GameObject,System.String,System.Boolean)"><summary>Get the value of the stat shift (optional base value) applied by this object</summary></member><member name="M:XRL.World.StatShifter.SetStatShift(XRL.World.GameObject,System.String,System.Int32,System.Boolean)"><summary>Shift a stat on target object by an amount, further calls to SetStatShift with the same stat will
+            undo the previous shift, and set to the new amount.</summary></member><member name="T:XRL.World.FormalWaterRitualSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.ItemModdingSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TypeField"><summary>
+            Base game object
+            </summary></member><member name="T:XRL.World.DisarmingSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenVisualInspection">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenPhysicalManipulation">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenPsychometry">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenTelekinesis">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenScanning">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenTenfoldPathBin">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenTenfoldPathHok">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenToolkit">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenAdvancedToolkit">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenCreationKnowledge">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenBit">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenLiquid">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenCharge">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenCopperWire">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.TinkeringSifrahTokenComputePower">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.PsychicCombatSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenInvokeAncientCompacts">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenRecountAccomplishments">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenPrayHumbly">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenSingHymn">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenSingAHistoricalEpic">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenTenfoldPathSed">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenCreationKnowledge">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenTenfoldPathBin">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenTenfoldPathHok">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenHookah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenReadFromTheCanticlesChromaic">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenScourging">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenAttributeSacrifice">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenBit">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenLiquid">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenCharge">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenItem">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenFood">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RitualSifrahTokenInvokeHighlyEntropicBeing">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.Cell"><summary>
+            Base type representing a single spatial cell ("square" or "space"
+            in player-facing terminology) within a zone.
+            </summary></member><member name="M:XRL.World.Cell.Clear(System.String,System.Boolean,System.Boolean,System.Func{XRL.World.GameObject,System.Boolean})"><summary>
+            Clear this cell's <see cref="F:XRL.World.Cell.Objects" />.
+            </summary><param name="Blueprint">A replacement blueprint to place in this cell after clearing.</param><param name="Important"><c>true</c> if important objects should be cleared; otherwise, <c>false</c>.</param><param name="Combat"><c>true</c> if combat objects should be cleared; otherwise, <c>false</c>.</param><param name="alsoExclude">A predicate which will prevent objects from being cleared if it returns true.</param><seealso cref="M:XRL.World.GameObject.IsImportant" /><seealso cref="M:XRL.World.GameObject.IsCombatObject(System.Boolean)" /></member><member name="T:XRL.World.ReverseEngineeringSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.RelicGenerator"><summary>
+            Base game object
+            </summary></member><member name="T:XRL.World.ExternalEventBind"><summary>
+            Base game object
+            </summary></member><member name="M:XRL.World.GameObject.GetStorableDrams(System.String,XRL.World.GameObject,System.Collections.Generic.List{XRL.World.GameObject},System.Predicate{XRL.World.GameObject},System.Boolean,XRL.World.Parts.LiquidVolume)"><summary>
+            Gets how many drams of space you have available for storing a
+            specified liquid.
+            </summary></member><member name="M:XRL.World.GameObject.GetAutoCollectDrams(System.String,XRL.World.GameObject,System.Collections.Generic.List{XRL.World.GameObject})"><summary>
+            Gets how many drams of space you have available for autocollecting a
+            specified liquid.
+            </summary></member><member name="M:XRL.World.GameObject.GetFreeDrams(System.String,XRL.World.GameObject,System.Collections.Generic.List{XRL.World.GameObject},System.Predicate{XRL.World.GameObject},System.Boolean)"><summary>
+            Gets how many drams of a specified liquid you have usable on hand.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayName"><summary>
+            The full object display name with all modifiers.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameStripped"><summary>
+            The full object display name with colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameOnly"><summary>
+            The object display name without tags. Adjectives and clauses are
+            included. This generally amounts to roughly "item + mods".
+            Currently the same as ShortDisplayName.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameOnlyStripped"><summary>
+            The object display name without tags and with colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameOnlyDirectAndStripped"><summary>
+            The unmodified display name setting from the object's Render part,
+            with any colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameOnlyUnconfused"><summary>
+            The object display name without tags, suppressing any modification
+            by the player's confusion state.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameSingle"><summary>
+            The object's full display name with any information about multiple
+            stacked items suppressed.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameOnlySingle"><summary>
+            The object's display name without tags and with any information about
+            multiple stacked items suppressed.
+            </summary></member><member name="P:XRL.World.GameObject.ShortDisplayName"><summary>
+            The object display name without tags. Adjectives and clauses are
+            included. This generally amounts to roughly "item + mods".
+            Currently the same as DisplayNameOnly.
+            </summary></member><member name="P:XRL.World.GameObject.ShortDisplayNameSingle"><summary>
+            The object's display name without tags and with any information about
+            multiple stacked items suppressed.
+            </summary></member><member name="P:XRL.World.GameObject.ShortDisplayNameStripped"><summary>
+            The object's display name without tags and with colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.ShortDisplayNameSingleStripped"><summary>
+            The object's display name without tags, with any information about
+            multiple stacked items suppressed, and with colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.ShortDisplayNameWithoutEpithet"><summary>
+            The object's display name without tags and with any name portion
+            following a comma removed.
+            </summary></member><member name="P:XRL.World.GameObject.ShortDisplayNameWithoutEpithetStripped"><summary>
+            The object's display name without tags, with any name portion
+            following a comma removed, and with colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.BaseDisplayName"><summary>
+            The object's display name without adjectives, clauses, or tags;
+            only alterations to the display name that are considered core
+            to the object's identity are included.
+            </summary></member><member name="P:XRL.World.GameObject.BaseKnownDisplayName"><summary>
+            The object's display name, as if fully known, without adjectives,
+            clauses, or tags; only alterations to the display name that are
+            considered core to the object's identity are included.
+            </summary></member><member name="P:XRL.World.GameObject.BaseDisplayNameStripped"><summary>
+            The object's display name without adjectives, clauses, or tags, and
+            with colors removed.
+            </summary></member><member name="P:XRL.World.GameObject.DisplayNameColor"><summary>
+            The main color of the object's display name.
+            </summary></member><member name="M:XRL.World.GameObject.GetDisplayName(System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean,System.Boolean)"><summary>
+            Flexible retrieval of the object's display name.
+            </summary><param Name="Cutoff">
+            If specified, description elements specified with an order greater
+            than or equal to this value are excluded from the name being
+            constructed. If Cutoff is low enough to exclude tags, the event
+            used for retrieval will be GetShortDisplayNameEvent rather than
+            GetDisplayNameEvent.
+            </param><param Name="Base">
+            If specified, this will be used as the base name for the object in
+            the name being constructed.
+            </param><param Name="Context">
+            A name generation context that will be passed to the event dispatched.
+            </param><param Name="AsIfKnown">
+            If true, the item will be treated as fully understood.
+            </param><param Name="Single">
+            If true, stack information will be suppressed.
+            </param><param Name="NoConfusion">
+            If true, effects of player confusion will be suppressed.
+            </param><param Name="NoColor">
+            If true, color added via abstract mechanisms in the event will be
+            suppressed. (This does not strip all color.)
+            </param><param Name="Stripped">
+            If true, all color will be stripped from the display name.
+            </param><param Name="ColorOnly">
+            If true, attempts to find the main color of the display name and
+            return it.
+            </param><param Name="Visible">
+            If true (the default), the object is being requested to be described
+            as if it is visible. If false, we are requesting that it be
+            described how it might be if one cannot see it.
+            </param><param Name="WithoutEpithet">
+            If true, any text at or following a comma will be removed from the
+            display name.
+            </param><param Name="Short">
+            If true, Cutoff is set to so as to exclude tags.
+            </param><param Name="BaseOnly">
+            If true, only Base elements of the display name are included.
+            </param><param Name="WithIndefiniteArticle">
+            If true, the return value should have the appropriate indefinite article,
+            if any, prepended to the name.
+            </param><param Name="WithDefiniteArticle">
+            If true, the return value should have the appropriate definite article,
+            if any, prepended to the name.
+            </param><param Name="DefaultDefiniteArticle">
+            If true, the provided value should be used as the default definite article
+            rather than "the".
+            </param><param Name="IndicateHidden">
+            If true and the object is hidden, the return value should have "hidden"
+            inserted after any article and before the name if the object is hidden, and
+            an indefinite article should be used rather than a definite one if any is.
+            </param><param Name="Capitalize">
+            If true, the return value should be capitalized.
+            </param><returns>
+            The display name to use for the object.
+            </returns><seealso cref="T:XRL.World.DescriptionBuilder">
+            Defines the order mechanics that Cutoff interacts with.
+            </seealso></member><member name="F:XRL.World.GameObject.GenderName"><summary>
+             The object blueprint tags that control gender and pronoun set setup are:
+            
+             Gender: this can be used to specify exactly one gender name from Genders.xml that
+             will be assigned to the object.  If both Gender and RandomGender are specified,
+             Gender controls.
+            
+             RandomGender: this can be used to specify a comma-separated list (no spaces around
+             the commas) of gender specifiers, one of which will be randomly selected.  The
+             specifiers may be gender names or abstract specifications from the following list.
+             ("Personal" means UseBareIndicative is false, which essentially means the gender
+             is treated as being for a person rather than a thing.  "Singular" means Plural is
+             false, that is, the gender addresses a singular subject.  "Generic" means the
+             gender is considered generic to the world rather than specific to an individual or
+             group.)
+            
+               - generate: if EnableGeneration is true in Genders.xml, procedurally generate
+                 a singular personal gender that will be registered with the system as non-generic;
+                 otherwise select a random personal singular gender
+               - generatemaybeplural: as generate, but with a 10% chance of being plural
+               - generatemaybenonpersonal: as generate, but with a 10% chance of being non-personal
+               - generatemaybepluralmaybenonpersonal: as generate, but with a 10% chance
+                 of being plural and a 10% chance of being non-personal
+               - any: randomly select from any gender in the system
+               - anyplural: randomly select a plural gender
+               - anysingular: randomly select a singular gender
+               - generic: randomly select a generic gender
+               - genericplural: randomly select a generic plural gender
+               - genericsingular: randomly select a generic singular gender
+               - personal: randomly select a personal gender
+               - personalplural: randomly select a personal plural gender
+               - personalsingular: randomly select a personal singular gender
+               - genericpersonal: randomly select a generic personal gender
+               - genericpersonalplural: randomly select a generic personal plural gender
+               - genericpersonalsingular: randomly select a generic personal singular gender
+               - nonpersonal: randomly select a nonpersonal gender
+               - nonpersonalplural: randomly select a nonpersonal plural gender
+               - nonpersonalsingular: randomly select a nonpersonal singular gender
+               - genericnonpersonal: randomly select a generic nonpersonal gender
+               - genericnonpersonalplural: randomly select a generic nonpersonal plural gender
+               - genericnonpersonalsingular: randomly select a generic nonpersonal singular gender
+            
+             PronounSet: this can be used to specify a pronoun set that will be assigned to the
+             object.  This can be the full slash-separated set of values that make up a fully
+             characterized pronoun set name (see PronounSet.CalculateName()) or a limited subset
+             of these, like "xe/xem/xyr", from which the system will attempt to derive the full
+             set of pronouns as best it can.  If both PronounSet and RandomPronounSet are specified,
+             PronounSet controls.
+            
+             RandomPronounSet: similar to RandomGender, but operating on pronoun sets.  The same set
+             of abstract specifications are available, referring to pronoun sets rather than genders
+             (and the generation control used is the one in PronounSets.xml).
+            
+             RandomPronounSetChance: if specified, RandomPronounSet will only take effect this
+             percentage of the time.  Otherwise, it always takes effect.
+             </summary></member><member name="M:XRL.World.GameObject.IsImportant"><summary>
+             Important objects are objects that, if removed, will break quest resolution/game flow.
+             Quest objects, important travel and transition objects, etc.
+            
+             Functions that clear cell contents should generally respect importance unless told very explicitly not to.
+             </summary><returns>If it's important.</returns></member><member name="M:XRL.World.GameObject.ConfirmUseImportant(XRL.World.GameObject,System.String,System.String,System.Int32)"><summary>
+            Display a formatted confirmation popup if this object is important and the provided actor is the player.
+            </summary><returns><c>true</c> if this object is not important or the player confirmed its usage; otherwise, <c>false</c>.</returns></member><member name="M:XRL.World.GameObject.GetSeededRandom(System.String)"><summary>Pulls a seeded System.Random from the RandomSeed:Channel intproperty, re-seeding the next call.  The seed
+            for the next RNG on the same channel will NOT reflect how many numbers you've pulled out of this RNG, unlike WithSeededRandom.
+            </summary></member><member name="M:XRL.World.GameObject.WithSeededRandom``1(System.Func{System.Random,``0},System.String)"><summary>Creates a System.Random from the RandomSeed:Channel intproperty (initialized from worldseed + object id + channel)
+            calling your function with it, and then writing a new seed to the intproperty based on the next number out of the RNG.
+            Seeding is sensitive to the number of numbers you pull out of the RNG given to your proc</summary></member><member name="T:XRL.World.RepairSifrah">
+            This class is not used in the base game.
+        </member><member name="M:XRL.World.GameObjectFactory.GetBlueprintIgnoringCase(System.String)"><summary>
+            Not intended for actual use by game objects, but makes finding blueprints via wish easier
+            </summary></member><member name="T:XRL.World.SerializationWriter"><summary>
+             A SerializationWriter instance is used to store values and objects in a byte array.
+            
+             Once an instance is created, use the various methods to store the required data.
+             ToArray() will return a byte[] containing all of the data required for deserialization.
+             This can be stored in the SerializationInfo parameter in an ISerializable.GetObjectData() method.
+             <para />
+             As an alternative to ToArray(), if you want to apply some post-processing to the serialized bytes, 
+             such as compression, call AppendTokenTables first to ensure that the string and object token tables 
+             are appended to the stream, and then cast BaseStream to MemoryStream. You can then access the
+             MemoryStream's internal buffer as follows:
+             <para /><example><code>
+             writer.AppendTokenTables();
+             MemoryStream stream = (MemoryStream) writer.BaseStream;
+            	serializedData = MiniLZO.Compress(stream.GetBuffer(), (int) stream.Length);
+             </code></example></summary></member><member name="F:XRL.World.SerializationWriter.DefaultCapacity"><summary>
+            Default capacity for the underlying MemoryStream
+            </summary></member><member name="F:XRL.World.SerializationWriter.DefaultOptimizeForSize"><summary>
+            The Default setting for the OptimizeForSize property.
+            </summary></member><member name="F:XRL.World.SerializationWriter.DefaultPreserveDecimalScale"><summary>
+            The Default setting for the PreserveDecimalScale property.
+            </summary></member><member name="P:XRL.World.SerializationWriter.TypeSurrogates"><summary>
+            Holds a list of optional IFastSerializationTypeSurrogate instances which
+            SerializationWriter and SerializationReader will use to serialize objects
+            not directly supported.
+            It is important to use the same list on both client and server ends to ensure
+            that the same surrogated-types are supported.
+            </summary></member><member name="F:XRL.World.SerializationWriter.DateYearMask"><summary>
+            Section masks used for packing DateTime values
+            </summary></member><member name="F:XRL.World.SerializationWriter.IsNegativeSection"><summary>
+            Section masks used for packing TimeSpan values
+            </summary></member><member name="F:XRL.World.SerializationWriter.HighestOptimizable16BitValue"><summary>
+            Holds the highest Int16 that can be optimized into less than the normal 2 bytes
+            </summary></member><member name="F:XRL.World.SerializationWriter.HighestOptimizable32BitValue"><summary>
+            Holds the highest Int32 that can be optimized into less than the normal 4 bytes
+            </summary></member><member name="F:XRL.World.SerializationWriter.HighestOptimizable64BitValue"><summary>
+            Holds the highest Int64 that can be optimized into less than the normal 8 bytes
+            </summary></member><member name="M:XRL.World.SerializationWriter.#ctor(System.IO.Stream,System.Boolean)"><summary>
+            Creates a FastSerializer around the specified stream
+            Note: The stream must be seekable in this version to allow the token table 
+            offset to be written on completion 
+            </summary><param name="stream">The seekable stream in which to store data</param></member><member name="P:XRL.World.SerializationWriter.OptimizeForSize"><summary>
+            Gets or Sets a boolean flag to indicate whether to optimize for size (default)
+            by storing data as packed bits or sections where possible.
+            Setting this value to false will turn off this optimization and store
+            data directly which increases the speed.
+            Note: This only affects optimization of data passed to the WriteObject method
+            and direct calls to the WriteOptimized methods will always pack data into
+            the smallest space where possible.
+            </summary></member><member name="P:XRL.World.SerializationWriter.PreserveDecimalScale"><summary>
+            Gets or Sets a boolean flag to indicate whether to preserve the scale within
+            a Decimal value when it would have no effect on the represented value.
+            Note: a 2m value and a 2.00m value represent the same value but internally they 
+            are stored differently - the former has a value of 2 and a scale of 0 and
+            the latter has a value of 200 and a scale of 2. 
+            The scaling factor also preserves any trailing zeroes in a Decimal number. 
+            Trailing zeroes do not affect the value of a Decimal number in arithmetic or 
+            comparison operations. However, trailing zeroes can be revealed by the ToString 
+            method if an appropriate format string is applied.
+            From a serialization point of view, the former will take 2 bytes whereas the 
+            latter would take 4 bytes, therefore it is preferable to not save the scale where
+            it doesn't affect the represented value.
+            </summary></member><member name="M:XRL.World.SerializationWriter.Write(System.Collections.ArrayList)"><summary>
+            Writes an ArrayList into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte upwards depending on data content
+            Notes:
+            A null Arraylist takes 1 byte.
+            An empty ArrayList takes 2 bytes.
+            The contents are stored using WriteOptimized(ArrayList) which should be used
+            if the ArrayList is guaranteed never to be null.
+            </summary><param name="value">The ArrayList to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Collections.BitArray)"><summary>
+            Writes a BitArray value into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte upwards depending on data content
+            Notes:
+            A null BitArray takes 1 byte.
+            An empty BitArray takes 2 bytes.
+            </summary><param name="value">The BitArray value to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Collections.Specialized.BitVector32)"><summary>
+            Writes a BitVector32 into the stream.
+            Stored Size: 4 bytes.
+            </summary><param name="value">The BitVector32 to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.DateTime)"><summary>
+            Writes a DateTime value into the stream.
+            Stored Size: 8 bytes
+            </summary><param name="value">The DateTime value to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Guid)"><summary>
+            Writes a Guid into the stream.
+            Stored Size: 16 bytes.
+            </summary><param name="value" /></member><member name="M:XRL.World.SerializationWriter.Write(XRL.World.IOwnedDataSerializable,System.Object)"><summary>
+            Allows any object implementing IOwnedDataSerializable to serialize itself
+            into this SerializationWriter.
+            A context may also be used to give the object an indication of what data
+            to store. As an example, using a BitVector32 gives a list of flags and
+            the object can conditionally store data depending on those flags.
+            </summary><param name="target">The IOwnedDataSerializable object to ask for owned data</param><param name="context">An arbtritrary object but BitVector32 recommended</param></member><member name="M:XRL.World.SerializationWriter.WriteObject(System.Object)"><summary>
+            Stores an object into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte upwards depending on type and/or content.
+            
+            1 byte: null, DBNull.Value, Boolean
+            
+            1 to 2 bytes: Int16, UInt16, Byte, SByte, Char, 
+            
+            1 to 4 bytes: Int32, UInt32, Single, BitVector32
+            
+            1 to 8 bytes: DateTime, TimeSpan, Double, Int64, UInt64
+            
+            1 or 16 bytes: Guid
+            
+            1 plus content: string, object[], byte[], char[], BitArray, Type, ArrayList
+            
+            Any other object be stored using a .Net Binary formatter but this should 
+            only be allowed as a last resort:
+            Since this is effectively a different serialization session, there is a 
+            possibility of the same shared object being serialized twice or, if the 
+            object has a reference directly or indirectly back to the parent object, 
+            there is a risk of looping which will throw an exception.
+            
+            The type of object is checked with the most common types being checked first.
+            Each 'section' can be reordered to provide optimum speed but the check for
+            null should always be first and the default serialization always last.
+            
+            Once the type is identified, a SerializedType byte is stored in the stream
+            followed by the data for the object (certain types/values may not require
+            storage of data as the SerializedType may imply the value).
+            
+            For certain objects, if the value is within a certain range then optimized
+            storage may be used. If the value doesn't meet the required optimization
+            criteria then the value is stored directly.
+            The checks for optimization may be disabled by setting the OptimizeForSize
+            property to false in which case the value is stored directly. This could 
+            result in a slightly larger stream but there will be a speed increate to
+            compensate.
+            </summary><param name="value">The object to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.String)"><summary>
+            Calls WriteOptimized(string).
+            This override to hide base BinaryWriter.Write(string).
+            </summary><param name="value">The string to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.TimeSpan)"><summary>
+            Writes a TimeSpan value into the stream.
+            Stored Size: 8 bytes
+            </summary><param name="value">The TimeSpan value to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Type,System.Boolean)"><summary>
+            Stores a Type object into the stream.
+            Stored Size: Depends on the length of the Type's name and whether the fullyQualified parameter is set.
+            A null Type takes 1 byte.
+            </summary><param name="value">The Type to store.</param><param name="fullyQualified">true to store the AssemblyQualifiedName or false to store the FullName. </param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Collections.ArrayList)"><summary>
+            Writes an non-null ArrayList into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte upwards depending on data content
+            Notes:
+            An empty ArrayList takes 1 byte.
+            </summary><param name="value">The ArrayList to store. Must not be null.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Collections.BitArray)"><summary>
+            Writes a BitArray into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte upwards depending on data content
+            Notes:
+            An empty BitArray takes 1 byte.
+            </summary><param name="value">The BitArray value to store. Must not be null.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Collections.Specialized.BitVector32)"><summary>
+            Writes a BitVector32 into the stream using the fewest number of bytes possible.
+            Stored Size: 1 to 4 bytes. (.Net is 4 bytes)
+             1 to  7 bits takes 1 byte
+             8 to 14 bits takes 2 bytes
+            15 to 21 bits takes 3 bytes
+            22 to 28 bits takes 4 bytes
+            -------------------------------------------------------------------
+            29 to 32 bits takes 5 bytes - use Write(BitVector32) method instead
+            
+            Try to order the BitVector32 masks so that the highest bits are least-likely
+            to be set.
+            </summary><param name="value">The BitVector32 to store. Must not use more than 28 bits.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.DateTime)"><summary>
+            Writes a DateTime value into the stream using the fewest number of bytes possible.
+            Stored Size: 3 bytes to 7 bytes (.Net is 8 bytes)
+            Notes:
+            A DateTime containing only a date takes 3 bytes
+            (except a .NET 2.0 Date with a specified DateTimeKind which will take a minimum
+            of 5 bytes - no further optimization for this situation felt necessary since it
+            is unlikely that a DateTimeKind would be specified without hh:mm also)
+            Date plus hh:mm takes 5 bytes.
+            Date plus hh:mm:ss takes 6 bytes.
+            Date plus hh:mm:ss.fff takes 7 bytes.
+            </summary><param name="value">The DateTime value to store. Must not contain sub-millisecond data.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Decimal)"><summary>
+            Writes a Decimal value into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte to 14 bytes (.Net is 16 bytes)
+            Restrictions: None
+            </summary><param name="value">The Decimal value to store</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Int16)"><summary>
+            Write an Int16 value using the fewest number of bytes possible.
+            </summary><remarks>
+            0x0000 - 0x007f (0 to 127) takes 1 byte
+            0x0080 - 0x03FF (128 to 16,383) takes 2 bytes
+            ----------------------------------------------------------------
+            0x0400 - 0x7FFF (16,384 to 32,767) takes 3 bytes
+            All negative numbers take 3 bytes
+            
+            Only call this method if the value is known to be between 0 and 
+            16,383 otherwise use Write(Int16 value)
+            </remarks><param name="value">The Int16 to store. Must be between 0 and 16,383 inclusive.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Int32)"><summary>
+            Write an Int32 value using the fewest number of bytes possible.
+            </summary><remarks>
+            0x00000000 - 0x0000007f (0 to 127) takes 1 byte
+            0x00000080 - 0x000003FF (128 to 16,383) takes 2 bytes
+            0x00000400 - 0x001FFFFF (16,384 to 2,097,151) takes 3 bytes
+            0x00200000 - 0x0FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes
+            ----------------------------------------------------------------
+            0x10000000 - 0x07FFFFFF (268,435,456 and above) takes 5 bytes
+            All negative numbers take 5 bytes
+            
+            Only call this method if the value is known to be between 0 and 
+            268,435,455 otherwise use Write(Int32 value)
+            </remarks><param name="value">The Int32 to store. Must be between 0 and 268,435,455 inclusive.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Int64)"><summary>
+            Write an Int64 value using the fewest number of bytes possible.
+            </summary><remarks>
+            0x0000000000000000 - 0x000000000000007f (0 to 127) takes 1 byte
+            0x0000000000000080 - 0x00000000000003FF (128 to 16,383) takes 2 bytes
+            0x0000000000000400 - 0x00000000001FFFFF (16,384 to 2,097,151) takes 3 bytes
+            0x0000000000200000 - 0x000000000FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes
+            0x0000000010000000 - 0x00000007FFFFFFFF (268,435,456 to 34,359,738,367) takes 5 bytes
+            0x0000000800000000 - 0x000003FFFFFFFFFF (34,359,738,368 to 4,398,046,511,103) takes 6 bytes
+            0x0000040000000000 - 0x0001FFFFFFFFFFFF (4,398,046,511,104 to 562,949,953,421,311) takes 7 bytes
+            0x0002000000000000 - 0x00FFFFFFFFFFFFFF (562,949,953,421,312 to 72,057,594,037,927,935) takes 8 bytes
+            ------------------------------------------------------------------
+            0x0100000000000000 - 0x7FFFFFFFFFFFFFFF (72,057,594,037,927,936 to 9,223,372,036,854,775,807) takes 9 bytes
+            0x7FFFFFFFFFFFFFFF - 0xFFFFFFFFFFFFFFFF (9,223,372,036,854,775,807 and above) takes 10 bytes
+            All negative numbers take 10 bytes
+            
+            Only call this method if the value is known to be between 0 and
+            72,057,594,037,927,935 otherwise use Write(Int64 value)
+            </remarks><param name="value">The Int64 to store. Must be between 0 and 72,057,594,037,927,935 inclusive.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.String)"><summary>
+            Writes a string value into the stream using the fewest number of bytes possible.
+            Stored Size: 1 byte upwards depending on string length
+            Notes:
+            Encodes null, Empty, 'Y', 'N', ' ' values as a single byte
+            Any other single char string is stored as two bytes
+            All other strings are stored in a string token list:
+            
+            The TypeCode representing the current string token list is written first (1 byte), 
+            followed by the string token itself (1-4 bytes)
+            
+            When the current string list has reached 128 values then a new string list
+            is generated and that is used for generating future string tokens. This continues
+            until the maximum number (128) of string lists is in use, after which the string 
+            lists are used in a round-robin fashion.
+            By doing this, more lists are created with fewer items which allows a smaller 
+            token size to be used for more strings.
+            
+            The first 16,384 strings will use a 1 byte token.
+            The next 2,097,152 strings will use a 2 byte token. (This should suffice for most uses!)
+            The next 268,435,456 strings will use a 3 byte token. (My, that is a lot!!)
+            The next 34,359,738,368 strings will use a 4 byte token. (only shown for completeness!!!)
+            </summary><param name="value">The string to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.TimeSpan)"><summary>
+            Writes a TimeSpan value into the stream using the fewest number of bytes possible.
+            Stored Size: 2 bytes to 8 bytes (.Net is 8 bytes)
+            Notes:
+            hh:mm (time) are always stored together and take 2 bytes.
+            If seconds are present then 3 bytes unless (time) is not present in which case 2 bytes
+            since the seconds are stored in the minutes position.
+            If milliseconds are present then 4 bytes.
+            In addition, if days are present they will add 1 to 4 bytes to the above.
+            </summary><param name="value">The TimeSpan value to store. Must not contain sub-millisecond data.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Type)"><summary>
+            Stores a non-null Type object into the stream.
+            Stored Size: Depends on the length of the Type's name.
+            If the type is a System type (mscorlib) then it is stored without assembly name information,
+            otherwise the Type's AssemblyQualifiedName is used.
+            </summary><param name="value">The Type to store. Must not be null.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.UInt16)"><summary>
+            Write a UInt16 value using the fewest number of bytes possible.
+            </summary><remarks>
+            0x0000 - 0x007f (0 to 127) takes 1 byte
+            0x0080 - 0x03FF (128 to 16,383) takes 2 bytes
+            ----------------------------------------------------------------
+            0x0400 - 0xFFFF (16,384 to 65,536) takes 3 bytes
+            
+            Only call this method if the value is known to  be between 0 and 
+            16,383 otherwise use Write(UInt16 value)
+            </remarks><param name="value">The UInt16 to store. Must be between 0 and 16,383 inclusive.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.UInt64)"><summary>
+            Write a UInt64 value using the fewest number of bytes possible.
+            </summary><remarks>
+            0x0000000000000000 - 0x000000000000007f (0 to 127) takes 1 byte
+            0x0000000000000080 - 0x00000000000003FF (128 to 16,383) takes 2 bytes
+            0x0000000000000400 - 0x00000000001FFFFF (16,384 to 2,097,151) takes 3 bytes
+            0x0000000000200000 - 0x000000000FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes
+            0x0000000010000000 - 0x00000007FFFFFFFF (268,435,456 to 34,359,738,367) takes 5 bytes
+            0x0000000800000000 - 0x000003FFFFFFFFFF (34,359,738,368 to 4,398,046,511,103) takes 6 bytes
+            0x0000040000000000 - 0x0001FFFFFFFFFFFF (4,398,046,511,104 to 562,949,953,421,311) takes 7 bytes
+            0x0002000000000000 - 0x00FFFFFFFFFFFFFF (562,949,953,421,312 to 72,057,594,037,927,935) takes 8 bytes
+            ------------------------------------------------------------------
+            0x0100000000000000 - 0x7FFFFFFFFFFFFFFF (72,057,594,037,927,936 to 9,223,372,036,854,775,807) takes 9 bytes
+            0x7FFFFFFFFFFFFFFF - 0xFFFFFFFFFFFFFFFF (9,223,372,036,854,775,807 and above) takes 10 bytes
+            
+            Only call this method if the value is known to be between 0 and
+            72,057,594,037,927,935 otherwise use Write(UInt64 value)
+            </remarks><param name="value">The UInt64 to store. Must be between 0 and 72,057,594,037,927,935 inclusive.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Boolean[])"><summary>
+            Writes a Boolean[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            Calls WriteOptimized(Boolean[]).
+            </summary><param name="values">The Boolean[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Byte[])"><summary>
+            Writes a Byte[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Byte[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Char[])"><summary>
+            Writes a Char[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Char[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.DateTime[])"><summary>
+            Writes a DateTime[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The DateTime[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Decimal[])"><summary>
+            Writes a Decimal[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            Calls WriteOptimized(Decimal[]).
+            </summary><param name="values">The Decimal[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Double[])"><summary>
+            Writes a Double[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Double[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Single[])"><summary>
+            Writes a Single[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Single[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Guid[])"><summary>
+            Writes a Guid[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Guid[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Int32[])"><summary>
+            Writes an Int32[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Int32[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Int64[])"><summary>
+            Writes an Int64[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Int64[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Object[])"><summary>
+            Writes an object[] into the stream.
+            Stored Size: 2 bytes upwards depending on data content
+            Notes:
+            A null object[] takes 1 byte.
+            An empty object[] takes 2 bytes.
+            The contents of the array will be stored optimized.
+            </summary><param name="values">The object[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.SByte[])"><summary>
+            Writes an SByte[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The SByte[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.Int16[])"><summary>
+            Writes an Int16[]or a null into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            Calls WriteOptimized(decimal[]).
+            </summary><param name="values">The Int16[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.TimeSpan[])"><summary>
+            Writes a TimeSpan[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The TimeSpan[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.UInt32[])"><summary>
+            Writes a UInt32[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The UInt32[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.UInt64[])"><summary>
+            Writes a UInt64[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The UInt64[] to store.</param></member><member name="M:XRL.World.SerializationWriter.Write(System.UInt16[])"><summary>
+            Writes a UInt16[] into the stream.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The UInt16[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Boolean[])"><summary>
+            Writes an optimized Boolean[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            Stored as a BitArray.
+            </summary><param name="values">The Boolean[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.DateTime[])"><summary>
+            Writes a DateTime[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The DateTime[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Decimal[])"><summary>
+            Writes a Decimal[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Decimal[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Object[])"><summary>
+            Writes a not-null object[] into the stream using the fewest number of bytes possible.
+            Stored Size: 2 bytes upwards depending on data content
+            Notes:
+            An empty object[] takes 1 byte.
+            The contents of the array will be stored optimized.
+            </summary><param name="values">The object[] to store. Must not be null.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Object[],System.Object[])"><summary>
+            Writes a pair of object[] arrays into the stream using the fewest number of bytes possible.
+            The arrays must not be null and must have the same length
+            The first array's values are written optimized
+            The second array's values are compared against the first and, where identical, will be stored
+            using a single byte.
+            Useful for storing entity data where there is a before-change and after-change set of value pairs
+            and, typically, only a few of the values will have changed.
+            </summary><param name="values1">The first object[] value which must not be null and must have the same length as values2</param><param name="values2">The second object[] value which must not be null and must have the same length as values1</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Int16[])"><summary>
+            Writes an Int16[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Int16[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Int32[])"><summary>
+            Writes an Int32[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Int32[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.Int64[])"><summary>
+            Writes an Int64[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The Int64[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.TimeSpan[])"><summary>
+            Writes a TimeSpan[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The TimeSpan[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.UInt16[])"><summary>
+            Writes a UInt16[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The UInt16[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.UInt32[])"><summary>
+            Writes a UInt32[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The UInt32[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteOptimized(System.UInt64[])"><summary>
+            Writes a UInt64[] into the stream using the fewest possible bytes.
+            Notes:
+            A null or empty array will take 1 byte.
+            </summary><param name="values">The UInt64[] to store.</param></member><member name="M:XRL.World.SerializationWriter.WriteNullable(System.ValueType)"><summary>
+            Writes a Nullable type into the stream.
+            Synonym for WriteObject().
+            </summary><param name="value">The Nullable value to store.</param></member><member name="M:XRL.World.SerializationWriter.Write``2(System.Collections.Generic.Dictionary{``0,``1})"><summary>
+            Writes a non-null generic Dictionary into the stream.
+            </summary><remarks>
+            The key and value types themselves are not stored - they must be 
+            supplied at deserialization time.
+            <para />
+            An array of keys is stored followed by an array of values.
+            </remarks><typeparam name="K">The key Type.</typeparam><typeparam name="V">The value Type.</typeparam><param name="value">The generic dictionary.</param></member><member name="M:XRL.World.SerializationWriter.Write``1(System.Collections.Generic.List{``0})"><summary>
+            Writes a non-null generic List into the stream.
+            </summary><remarks>
+            The list type itself is not stored - it must be supplied
+            at deserialization time.
+            <para />
+            The list contents are stored as an array.
+            </remarks><typeparam name="T">The list Type.</typeparam><param name="value">The generic List.</param></member><member name="M:XRL.World.SerializationWriter.WriteTypedArray(System.Array)"><summary>
+            Writes a null or a typed array into the stream.
+            </summary><param name="values">The array to store.</param></member><member name="M:XRL.World.SerializationWriter.AppendTokenTables"><summary>
+            Writes the contents of the string and object token tables into the stream.
+            Also write the starting offset into the first 4 bytes of the stream.
+            Notes:
+            Called automatically by ToArray().
+            Can be used to ensure that the complete graph is written before using an
+            alternate technique of extracting a Byte[] such as using compression on
+            the underlying stream.
+            </summary><returns>The length of the string and object tables.</returns></member><member name="M:XRL.World.SerializationWriter.ToArray"><summary>
+            Returns a byte[] containing all of the serialized data.
+            
+            The current implementation has the data in 3 sections:
+            1) A 4 byte Int32 giving the offset to the 3rd section.
+            2) The main serialized data.
+            3) The serialized string tokenization lists and object
+               tokenization lists.
+            
+            Only call this method once all of the data has been serialized.
+            
+            This method appends all of the tokenized data (string and object)
+            to the end of the stream and ensures that the first four bytes
+            reflect the offset of the tokenized data so that it can be
+            deserialized first.
+            This is the reason for requiring a rewindable stream.
+            
+            Future implementations may also allow the serialized data to be
+            accessed via 2 byte[] arrays. This would remove the requirement
+            for a rewindable stream opening the possibility of streaming the
+            serialized data directly over the network allowing simultaneous
+            of partially simultaneous deserialization.
+            </summary><returns>A byte[] containing all serialized data.</returns></member><member name="M:XRL.World.SerializationWriter.WriteBytesDirect(System.Byte[])"><summary>
+            Writes a byte[] directly into the stream.
+            The size of the array is not stored so only use this method when
+            the number of bytes will be known at deserialization time.
+            
+            A null value will throw an exception
+            </summary><param name="value">The byte[] to store. Must not be null.</param></member><member name="M:XRL.World.SerializationWriter.WriteStringDirect(System.String)"><summary>
+            Writes a non-null string directly to the stream without tokenization.
+            </summary><param name="value">The string to store. Must not be null.</param></member><member name="M:XRL.World.SerializationWriter.WriteTokenizedObject(System.Object)"><summary>
+            Writes a token (an Int32 taking 1 to 4 bytes) into the stream that represents the object instance.
+            The same token will always be used for the same object instance.
+            
+            The object will be serialized once and recreated at deserialization time.
+            Calls to SerializationReader.ReadTokenizedObject() will retrieve the same object instance.
+            
+            </summary><param name="value">The object to tokenize. Must not be null and must not be a string.</param></member><member name="M:XRL.World.SerializationWriter.WriteTokenizedObject(System.Object,System.Boolean)"><summary>
+            Writes a token (an Int32 taking 1 to 4 bytes) into the stream that represents the object instance.
+            The same token will always be used for the same object instance.
+            
+            When recreateFromType is set to true, the object's Type will be stored and the object recreated using 
+            Activator.GetInstance with a parameterless contructor. This is useful for stateless, factory-type classes.
+            
+            When recreateFromType is set to false, the object will be serialized once and recreated at deserialization time.
+            
+            Calls to SerializationReader.ReadTokenizedObject() will retrieve the same object instance.
+            </summary><param name="value">The object to tokenize. Must not be null and must not be a string.</param><param name="recreateFromType">true if the object can be recreated using a parameterless constructor; 
+            false if the object should be serialized as-is</param></member><member name="M:XRL.World.SerializationWriter.encodeTimeSpan(System.TimeSpan,System.Boolean,System.Int32)"><summary>
+            Encodes a TimeSpan into the fewest number of bytes.
+            Has been separated from the WriteOptimized(TimeSpan) method so that WriteOptimized(DateTime)
+            can also use this for .NET 2.0 DateTimeKind information.
+            By taking advantage of the fact that a DateTime's TimeOfDay portion will never use the IsNegative
+            and HasDays flags, we can use these 2 bits to store the DateTimeKind and, since DateTimeKind is
+            unlikely to be set without a Time, we need no additional bytes to support a .NET 2.0 DateTime.
+            </summary><param name="value">The TimeSpan to store.</param><param name="partOfDateTime">True if the TimeSpan is the TimeOfDay from a DateTime; False if a real TimeSpan.</param><param name="initialData">The intial data for the BitVector32 - contains DateTimeKind or 0</param></member><member name="M:XRL.World.SerializationWriter.checkOptimizable(System.Boolean,System.String)"><summary>
+            Checks whether an optimization condition has been met and throw an exception if not.
+            
+            This method has been made conditional on THROW_IF_NOT_OPTIMIZABLE being set at compile time.
+            By default, this is set if DEBUG is set but could be set explicitly if exceptions are required and
+            the evaluation overhead is acceptable. 
+            If not set, then this method and all references to it are removed at compile time.
+            
+            Leave at the default for optimum usage.
+            </summary><param name="condition">An expression evaluating to true if the optimization condition is met, false otherwise.</param><param name="message">The message to include in the exception should the optimization condition not be met.</param></member><member name="M:XRL.World.SerializationWriter.write7bitEncodedSigned32BitValue(System.Int32)"><summary>
+            Stores a 32-bit signed value into the stream using 7-bit encoding.
+            
+            The value is written 7 bits at a time (starting with the least-significant bits) until there are no more bits to write.
+            The eighth bit of each byte stored is used to indicate whether there are more bytes following this one.
+            
+            See Write(Int32) for details of the values that are optimizable.
+            </summary><param name="value">The Int32 value to encode.</param></member><member name="M:XRL.World.SerializationWriter.write7bitEncodedSigned64BitValue(System.Int64)"><summary>
+            Stores a 64-bit signed value into the stream using 7-bit encoding.
+            
+            The value is written 7 bits at a time (starting with the least-significant bits) until there are no more bits to write.
+            The eighth bit of each byte stored is used to indicate whether there are more bytes following this one.
+            
+            See Write(Int64) for details of the values that are optimizable.
+            </summary><param name="value">The Int64 value to encode.</param></member><member name="M:XRL.World.SerializationWriter.write7bitEncodedUnsigned32BitValue(System.UInt32)"><summary>
+            Stores a 32-bit unsigned value into the stream using 7-bit encoding.
+            
+            The value is written 7 bits at a time (starting with the least-significant bits) until there are no more bits to write.
+            The eighth bit of each byte stored is used to indicate whether there are more bytes following this one.
+            
+            See Write(UInt32) for details of the values that are optimizable.
+            </summary><param name="value">The UInt32 value to encode.</param></member><member name="M:XRL.World.SerializationWriter.write7bitEncodedUnsigned64BitValue(System.UInt64)"><summary>
+            Stores a 64-bit unsigned value into the stream using 7-bit encoding.
+            
+            The value is written 7 bits at a time (starting with the least-significant bits) until there are no more bits to write.
+            The eighth bit of each byte stored is used to indicate whether there are more bytes following this one.
+            
+            See Write(ULong) for details of the values that are optimizable.
+            </summary><param name="value">The ULong value to encode.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Boolean[])"><summary>
+            Internal implementation to store a non-null Boolean[].
+            </summary><remarks>
+            Stored as a BitArray for optimization.
+            </remarks><param name="values">The Boolean[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Byte[])"><summary>
+            Internal implementation to store a non-null Byte[].
+            </summary><param name="values">The Byte[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Char[])"><summary>
+            Internal implementation to store a non-null Char[].
+            </summary><param name="values">The Char[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.DateTime[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non, null DateTime[] using a BitArray to 
+            determine which elements are optimizable.
+            </summary><param name="values">The DateTime[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Decimal[])"><summary>
+            Internal implementation to store a non-null Decimal[].
+            </summary><remarks>
+            All elements are stored optimized.
+            </remarks><param name="values">The Decimal[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Double[])"><summary>
+            Internal implementation to store a non-null Double[].
+            </summary><param name="values">The Double[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Single[])"><summary>
+            Internal implementation to store a non-null Single[].
+            </summary><param name="values">The Single[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Guid[])"><summary>
+            Internal implementation to store a non-null Guid[].
+            </summary><param name="values">The Guid[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Int16[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non-null Int16[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The Int16[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Int32[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non-null Int32[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The Int32[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Int64[],System.Collections.BitArray)"><summary>
+            Internal implementation to writes a non-null Int64[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The Int64[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.SByte[])"><summary>
+            Internal implementation to store a non-null SByte[].
+            </summary><param name="values">The SByte[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.Int16[])"><summary>
+            Internal implementation to store a non-null Int16[].
+            </summary><param name="values">The Int16[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.TimeSpan[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non-null TimeSpan[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The TimeSpan[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.UInt16[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non-null UInt16[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The UInt16[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.UInt32[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non-null UInt32[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The UInt32[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.UInt16[])"><summary>
+            Internal implementation to store a non-null UInt16[].
+            </summary><param name="values">The UIn16[] to store.</param></member><member name="M:XRL.World.SerializationWriter.writeArray(System.UInt64[],System.Collections.BitArray)"><summary>
+            Internal implementation to write a non-null UInt64[] using a BitArray to determine which elements are optimizable.
+            </summary><param name="values">The UInt64[] to store.</param><param name="optimizeFlags">A BitArray indicating which of the elements which are optimizable; 
+            a reference to constant FullyOptimizableValueArray if all the elements are optimizable; or null
+            if none of the elements are optimizable.</param></member><member name="M:XRL.World.SerializationWriter.writeObjectArray(System.Object[])"><summary>
+            Writes the values in the non-null object[] into the stream.
+            
+            Sequences of null values and sequences of DBNull.Values are stored with a flag and optimized count.
+            Other values are stored using WriteObject().
+            
+            This routine is called by the Write(object[]), WriteOptimized(object[]) and Write(object[], object[])) methods.
+            </summary><param name="values" /></member><member name="M:XRL.World.SerializationWriter.writeTypeCode(XRL.World.SerializedType)"><summary>
+            Stores the specified SerializedType code into the stream.
+            
+            By using a centralized method, it is possible to collect statistics for the
+            type of data being stored in DEBUG mode.
+            
+            Use the DumpTypeUsage() method to show a list of used SerializedTypes and
+            the number of times each has been used. This method and the collection code
+            will be optimized out when compiling in Release mode.
+            </summary><param name="typeCode">The SerializedType to store.</param></member><member name="M:XRL.World.SerializationWriter.writeTypedArray(System.Array,System.Boolean)"><summary>
+            Internal implementation to write a non-null typed array into the stream.
+            </summary><remarks>
+            Checks first to see if the element type is a primitive type and calls the 
+            correct routine if so. Otherwise determines the best, optimized method
+            to store the array contents.
+            <para />
+            An array of object elements never stores its type.
+            </remarks><param name="value">The non-null typed array to store.</param><param name="storeType">True if the type should be stored; false otherwise</param></member><member name="M:XRL.World.SerializationWriter.isTypeRecreatable(System.Type)"><summary>
+            Checks whether instances of a Type can be created.
+            </summary><remarks>
+            A Value Type only needs to implement IOwnedDataSerializable. 
+            A Reference Type needs to implement IOwnedDataSerializableAndRecreatable and provide a default constructor.
+            </remarks><param name="type">The Type to check</param><returns>true if the Type is recreatable; false otherwise.</returns></member><member name="M:XRL.World.SerializationWriter.arrayElementsAreSameType(System.Object[],System.Type)"><summary>
+            Checks whether each element in an array is of the same type.
+            </summary><param name="values">The array to check</param><param name="elementType">The expected element type.</param><returns /></member><member name="M:XRL.World.SerializationWriter.writeTypedArrayTypeCode(System.Collections.BitArray,System.Int32)"><summary>
+            Writes the TypeCode for the Typed Array followed by the number of elements.
+            </summary><param name="optimizeFlags" /><param name="length" /></member><member name="T:XRL.World.SerializationWriter.SingletonTypeWrapper"><summary>
+            Private class used to wrap an object that is to be tokenized, and recreated at deserialization by its type.
+            </summary></member><member name="T:XRL.World.SerializationWriter.UniqueStringList"><summary>
+            Provides a faster way to store string tokens both maintaining the order that they were added and
+            providing a fast lookup.
+            
+            Based on code developed by ewbi at http://ewbi.blogs.com/develops/2006/10/uniquestringlis.html
+            </summary></member><member name="T:XRL.World.SerializationReader"><summary>
+             A SerializationReader instance is used to read stored values and objects from a byte array.
+            
+             Once an instance is created, use the various methods to read the required data.
+             The data read MUST be exactly the same type and in the same order as it was written.
+             </summary></member><member name="M:XRL.World.SerializationReader.#ctor(System.Byte[])"><summary>
+            Creates a SerializationReader using a byte[] previous created by SerializationWriter
+            
+            A MemoryStream is used to access the data without making a copy of it.
+            </summary><param name="data">The byte[] containining serialized data.</param></member><member name="M:XRL.World.SerializationReader.#ctor(System.IO.Stream)"><summary>
+            Creates a SerializationReader based on the passed Stream.
+            </summary><param name="stream">The stream containing the serialized data</param></member><member name="P:XRL.World.SerializationReader.BytesRemaining"><summary>
+            Returns the number of bytes or serialized remaining to be processed.
+            Useful for checking that deserialization is complete.
+            
+            Warning: Retrieving the Position in certain stream types can be expensive,
+            e.g. a FileStream, so use sparingly unless known to be a MemoryStream.
+            </summary></member><member name="M:XRL.World.SerializationReader.ReadArrayList"><summary>
+            Returns an ArrayList or null from the stream.
+            </summary><returns>An ArrayList instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadBitArray"><summary>
+            Returns a BitArray or null from the stream.
+            </summary><returns>A BitArray instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadBitVector32"><summary>
+            Returns a BitVector32 value from the stream.
+            </summary><returns>A BitVector32 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadBytesDirect(System.Int32)"><summary>
+            Reads the specified number of bytes directly from the stream.
+            </summary><param name="count">The number of bytes to read</param><returns>A byte[] containing the read bytes</returns></member><member name="M:XRL.World.SerializationReader.ReadDateTime"><summary>
+            Returns a DateTime value from the stream.
+            </summary><returns>A DateTime value.</returns></member><member name="M:XRL.World.SerializationReader.ReadGuid"><summary>
+            Returns a Guid value from the stream.
+            </summary><returns>A DateTime value.</returns></member><member name="M:XRL.World.SerializationReader.ReadObject"><summary>
+            Returns an object based on the SerializedType read next from the stream.
+            </summary><returns>An object instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadString"><summary>
+            Called ReadOptimizedString().
+            This override to hide base BinaryReader.ReadString().
+            </summary><returns>A string value.</returns></member><member name="M:XRL.World.SerializationReader.ReadStringDirect"><summary>
+            Returns a string value from the stream.
+            </summary><returns>A string value.</returns></member><member name="M:XRL.World.SerializationReader.ReadTimeSpan"><summary>
+            Returns a TimeSpan value from the stream.
+            </summary><returns>A TimeSpan value.</returns></member><member name="M:XRL.World.SerializationReader.ReadType"><summary>
+            Returns a Type or null from the stream.
+            
+            Throws an exception if the Type cannot be found.
+            </summary><returns>A Type instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadType(System.Boolean)"><summary>
+            Returns a Type or null from the stream.
+            
+            Throws an exception if the Type cannot be found and throwOnError is true.
+            </summary><returns>A Type instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedArrayList"><summary>
+            Returns an ArrayList from the stream that was stored optimized.
+            </summary><returns>An ArrayList instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedBitArray"><summary>
+            Returns a BitArray from the stream that was stored optimized.
+            </summary><returns>A BitArray instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedBitVector32"><summary>
+            Returns a BitVector32 value from the stream that was stored optimized.
+            </summary><returns>A BitVector32 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedDateTime"><summary>
+            Returns a DateTime value from the stream that was stored optimized.
+            </summary><returns>A DateTime value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedDecimal"><summary>
+            Returns a Decimal value from the stream that was stored optimized.
+            </summary><returns>A Decimal value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedInt32"><summary>
+            Returns an Int32 value from the stream that was stored optimized.
+            </summary><returns>An Int32 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedInt16"><summary>
+            Returns an Int16 value from the stream that was stored optimized.
+            </summary><returns>An Int16 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedInt64"><summary>
+            Returns an Int64 value from the stream that was stored optimized.
+            </summary><returns>An Int64 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedObjectArray"><summary>
+            Returns an object[] from the stream that was stored optimized.
+            </summary><returns>An object[] instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedObjectArray(System.Type)"><summary>
+            Returns an object[] from the stream that was stored optimized.
+            The returned array will be typed according to the specified element type
+            and the resulting array can be cast to the expected type.
+            e.g.
+            string[] myStrings = (string[]) reader.ReadOptimizedObjectArray(typeof(string));
+            
+            An exception will be thrown if any of the deserialized values cannot be
+            cast to the specified elementType.
+            
+            </summary><param name="elementType">The Type of the expected array elements. null will return a plain object[].</param><returns>An object[] instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedObjectArrayPair(System.Object[]@,System.Object[]@)"><summary>
+            Returns a pair of object[] arrays from the stream that were stored optimized.
+            </summary><returns>A pair of object[] arrays.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedString"><summary>
+            Returns a string value from the stream that was stored optimized.
+            </summary><returns>A string value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedTimeSpan"><summary>
+            Returns a TimeSpan value from the stream that was stored optimized.
+            </summary><returns>A TimeSpan value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedType"><summary>
+            Returns a Type from the stream.
+            
+            Throws an exception if the Type cannot be found.
+            </summary><returns>A Type instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedType(System.Boolean)"><summary>
+            Returns a Type from the stream.
+            
+            Throws an exception if the Type cannot be found and throwOnError is true.
+            </summary><returns>A Type instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedUInt16"><summary>
+            Returns a UInt16 value from the stream that was stored optimized.
+            </summary><returns>A UInt16 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedUInt32"><summary>
+            Returns a UInt32 value from the stream that was stored optimized.
+            </summary><returns>A UInt32 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedUInt64"><summary>
+            Returns a UInt64 value from the stream that was stored optimized.
+            </summary><returns>A UInt64 value.</returns></member><member name="M:XRL.World.SerializationReader.ReadTypedArray"><summary>
+            Returns a typed array from the stream.
+            </summary><returns>A typed array.</returns></member><member name="M:XRL.World.SerializationReader.ReadDictionary``2"><summary>
+            Returns a new, simple generic dictionary populated with keys and values from the stream.
+            </summary><typeparam name="K">The key Type.</typeparam><typeparam name="V">The value Type.</typeparam><returns>A new, simple, populated generic Dictionary.</returns></member><member name="M:XRL.World.SerializationReader.ReadDictionary``2(System.Collections.Generic.Dictionary{``0,``1})"><summary>
+            Populates a pre-existing generic dictionary with keys and values from the stream.
+            This allows a generic dictionary to be created without using the default constructor.
+            </summary><typeparam name="K">The key Type.</typeparam><typeparam name="V">The value Type.</typeparam></member><member name="M:XRL.World.SerializationReader.ReadList``1"><summary>
+            Returns a generic List populated with values from the stream.
+            </summary><typeparam name="T">The list Type.</typeparam><returns>A new generic List.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullable"><summary>
+            Returns a Nullable struct from the stream.
+            The value returned must be cast to the correct Nullable type.
+            Synonym for ReadObject();
+            </summary><returns>A struct value or null</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableBoolean"><summary>
+            Returns a Nullable Boolean from the stream.
+            </summary><returns>A Nullable Boolean.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableByte"><summary>
+            Returns a Nullable Byte from the stream.
+            </summary><returns>A Nullable Byte.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableChar"><summary>
+            Returns a Nullable Char from the stream.
+            </summary><returns>A Nullable Char.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableDateTime"><summary>
+            Returns a Nullable DateTime from the stream.
+            </summary><returns>A Nullable DateTime.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableDecimal"><summary>
+            Returns a Nullable Decimal from the stream.
+            </summary><returns>A Nullable Decimal.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableDouble"><summary>
+            Returns a Nullable Double from the stream.
+            </summary><returns>A Nullable Double.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableGuid"><summary>
+            Returns a Nullable Guid from the stream.
+            </summary><returns>A Nullable Guid.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableInt16"><summary>
+            Returns a Nullable Int16 from the stream.
+            </summary><returns>A Nullable Int16.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableInt32"><summary>
+            Returns a Nullable Int32 from the stream.
+            </summary><returns>A Nullable Int32.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableInt64"><summary>
+            Returns a Nullable Int64 from the stream.
+            </summary><returns>A Nullable Int64.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableSByte"><summary>
+            Returns a Nullable SByte from the stream.
+            </summary><returns>A Nullable SByte.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableSingle"><summary>
+            Returns a Nullable Single from the stream.
+            </summary><returns>A Nullable Single.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableTimeSpan"><summary>
+            Returns a Nullable TimeSpan from the stream.
+            </summary><returns>A Nullable TimeSpan.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableUInt16"><summary>
+            Returns a Nullable UInt16 from the stream.
+            </summary><returns>A Nullable UInt16.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableUInt32"><summary>
+            Returns a Nullable UInt32 from the stream.
+            </summary><returns>A Nullable UInt32.</returns></member><member name="M:XRL.World.SerializationReader.ReadNullableUInt64"><summary>
+            Returns a Nullable UInt64 from the stream.
+            </summary><returns>A Nullable UInt64.</returns></member><member name="M:XRL.World.SerializationReader.ReadByteArray"><summary>
+            Returns a Byte[] from the stream.
+            </summary><returns>A Byte instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadCharArray"><summary>
+            Returns a Char[] from the stream.
+            </summary><returns>A Char[] value; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadDoubleArray"><summary>
+            Returns a Double[] from the stream.
+            </summary><returns>A Double[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadGuidArray"><summary>
+            Returns a Guid[] from the stream.
+            </summary><returns>A Guid[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadInt16Array"><summary>
+            Returns an Int16[] from the stream.
+            </summary><returns>An Int16[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadObjectArray"><summary>
+            Returns an object[] or null from the stream.
+            </summary><returns>A DateTime value.</returns></member><member name="M:XRL.World.SerializationReader.ReadObjectArray(System.Type)"><summary>
+            Returns an object[] or null from the stream.
+            The returned array will be typed according to the specified element type
+            and the resulting array can be cast to the expected type.
+            e.g.
+            string[] myStrings = (string[]) reader.ReadObjectArray(typeof(string));
+            
+            An exception will be thrown if any of the deserialized values cannot be
+            cast to the specified elementType.
+            
+            </summary><param name="elementType">The Type of the expected array elements. null will return a plain object[].</param><returns>An object[] instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadSingleArray"><summary>
+            Returns a Single[] from the stream.
+            </summary><returns>A Single[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadSByteArray"><summary>
+            Returns an SByte[] from the stream.
+            </summary><returns>An SByte[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadStringArray"><summary>
+            Returns a string[] or null from the stream.
+            </summary><returns>An string[] instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadUInt16Array"><summary>
+            Returns a UInt16[] from the stream.
+            </summary><returns>A UInt16[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadBooleanArray"><summary>
+            Returns a Boolean[] from the stream.
+            </summary><returns>A Boolean[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadDateTimeArray"><summary>
+            Returns a DateTime[] from the stream.
+            </summary><returns>A DateTime[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadDecimalArray"><summary>
+            Returns a Decimal[] from the stream.
+            </summary><returns>A Decimal[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadInt32Array"><summary>
+            Returns an Int32[] from the stream.
+            </summary><returns>An Int32[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadInt64Array"><summary>
+            Returns an Int64[] from the stream.
+            </summary><returns>An Int64[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedStringArray"><summary>
+            Returns a string[] from the stream that was stored optimized.
+            </summary><returns>An string[] instance.</returns></member><member name="M:XRL.World.SerializationReader.ReadTimeSpanArray"><summary>
+            Returns a TimeSpan[] from the stream.
+            </summary><returns>A TimeSpan[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadUInt32Array"><summary>
+            Returns a UInt[] from the stream.
+            </summary><returns>A UInt[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadUInt64Array"><summary>
+            Returns a UInt64[] from the stream.
+            </summary><returns>A UInt64[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedBooleanArray"><summary>
+            Returns a Boolean[] from the stream.
+            </summary><returns>A Boolean[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedDateTimeArray"><summary>
+            Returns a DateTime[] from the stream.
+            </summary><returns>A DateTime[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedDecimalArray"><summary>
+            Returns a Decimal[] from the stream.
+            </summary><returns>A Decimal[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedInt16Array"><summary>
+            Returns a Int16[] from the stream.
+            </summary><returns>An Int16[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedInt32Array"><summary>
+            Returns a Int32[] from the stream.
+            </summary><returns>An Int32[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedInt64Array"><summary>
+            Returns a Int64[] from the stream.
+            </summary><returns>A Int64[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedTimeSpanArray"><summary>
+            Returns a TimeSpan[] from the stream.
+            </summary><returns>A TimeSpan[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedUInt16Array"><summary>
+            Returns a UInt16[] from the stream.
+            </summary><returns>A UInt16[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedUInt32Array"><summary>
+            Returns a UInt32[] from the stream.
+            </summary><returns>A UInt32[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOptimizedUInt64Array"><summary>
+            Returns a UInt64[] from the stream.
+            </summary><returns>A UInt64[] instance; or null.</returns></member><member name="M:XRL.World.SerializationReader.ReadOwnedData(XRL.World.IOwnedDataSerializable,System.Object)"><summary>
+            Allows an existing object, implementing IOwnedDataSerializable, to 
+            retrieve its owned data from the stream.
+            </summary><param name="target">Any IOwnedDataSerializable object.</param><param name="context">An optional, arbitrary object to allow context to be provided.</param></member><member name="M:XRL.World.SerializationReader.ReadTokenizedObject"><summary>
+            Returns the object associated with the object token read next from the stream.
+            </summary><returns>An object.</returns></member><member name="M:XRL.World.SerializationReader.decodeTimeSpan(System.Byte)"><summary>
+            Returns a TimeSpan decoded from packed data.
+            This routine is called from ReadOptimizedDateTime() and ReadOptimizedTimeSpan().
+            <remarks>
+            This routine uses a parameter to allow ReadOptimizedDateTime() to 'peek' at the
+            next byte and extract the DateTimeKind from bits one and two (IsNegative and HasDays)
+            which are never set for a Time portion of a DateTime.
+            </remarks></summary><param name="initialByte">The first of two always-present bytes.</param><returns>A decoded TimeSpan</returns></member><member name="M:XRL.World.SerializationReader.readTypedArrayOptimizeFlags(XRL.World.SerializedType)"><summary>
+            Creates a BitArray representing which elements of a typed array
+            are serializable.
+            </summary><param name="serializedType">The type of typed array.</param><returns>A BitArray denoting which elements are serializable.</returns></member><member name="M:XRL.World.SerializationReader.processObject(XRL.World.SerializedType)"><summary>
+            Returns an object based on supplied SerializedType.
+            </summary><returns>An object instance.</returns></member><member name="M:XRL.World.SerializationReader.processArrayTypes(XRL.World.SerializedType,System.Type)"><summary>
+            Determine whether the passed-in type code refers to an array type
+            and deserializes the array if it is.
+            Returns null if not an array type.
+            </summary><param name="typeCode">The SerializedType to check.</param><param name="defaultElementType">The Type of array element; null if to be read from stream.</param><returns /></member><member name="M:XRL.World.SerializationReader.readTokenizedString(System.Int32)"><summary>
+            Returns the string value associated with the string token read next from the stream.
+            </summary><returns>A DateTime value.</returns></member><member name="M:XRL.World.SerializationReader.readTypeCode"><summary>
+            Returns the SerializedType read next from the stream.
+            </summary><returns>A SerializedType value.</returns></member><member name="M:XRL.World.SerializationReader.readBooleanArray"><summary>
+            Internal implementation returning a Bool[].
+            </summary><returns>A Bool[].</returns></member><member name="M:XRL.World.SerializationReader.readByteArray"><summary>
+            Internal implementation returning a Byte[].
+            </summary><returns>A Byte[].</returns></member><member name="M:XRL.World.SerializationReader.readCharArray"><summary>
+            Internal implementation returning a Char[].
+            </summary><returns>A Char[].</returns></member><member name="M:XRL.World.SerializationReader.readDecimalArray"><summary>
+            Internal implementation returning a Decimal[].
+            </summary><returns>A Decimal[].</returns></member><member name="M:XRL.World.SerializationReader.readDoubleArray"><summary>
+            Internal implementation returning a Double[].
+            </summary><returns>A Double[].</returns></member><member name="M:XRL.World.SerializationReader.readGuidArray"><summary>
+            Internal implementation returning a Guid[].
+            </summary><returns>A Guid[].</returns></member><member name="M:XRL.World.SerializationReader.readSByteArray"><summary>
+            Internal implementation returning an SByte[].
+            </summary><returns>An SByte[].</returns></member><member name="M:XRL.World.SerializationReader.readSingleArray"><summary>
+            Internal implementation returning a Single[].
+            </summary><returns>A Single[].</returns></member><member name="T:XRL.World.OptimizationException"><summary>
+            Exception thrown when a value being optimized does not meet the required criteria for optimization.
+            </summary></member><member name="T:XRL.World.IOwnedDataSerializableAndRecreatable"><summary>
+            Allows a class to specify that it can be recreated during deserialization using a default constructor
+            and then calling DeserializeOwnedData()
+            </summary></member><member name="T:XRL.World.IOwnedDataSerializable"><summary>
+            Allows a class to save/retrieve their internal data to/from an existing SerializationWriter/SerializationReader.
+            </summary></member><member name="M:XRL.World.IOwnedDataSerializable.SerializeOwnedData(XRL.World.SerializationWriter,System.Object)"><summary>
+            Lets the implementing class store internal data directly into a SerializationWriter.
+            </summary><param name="writer">The SerializationWriter to use</param><param name="context">Optional context to use as a hint as to what to store (BitVector32 is useful)</param></member><member name="M:XRL.World.IOwnedDataSerializable.DeserializeOwnedData(XRL.World.SerializationReader,System.Object)"><summary>
+            Lets the implementing class retrieve internal data directly from a SerializationReader.
+            </summary><param name="reader">The SerializationReader to use</param><param name="context">Optional context to use as a hint as to what to retrieve (BitVector32 is useful) </param></member><member name="T:XRL.World.IFastSerializationTypeSurrogate"><summary>
+            Interface to allow helper classes to be used to serialize objects
+            that are not directly supported by SerializationWriter/SerializationReader
+            </summary></member><member name="M:XRL.World.IFastSerializationTypeSurrogate.SupportsType(System.Type)"><summary>
+            Allows a surrogate to be queried as to whether a particular type is supported
+            </summary><param name="type">The type being queried</param><returns>true if the type is supported; otherwise false</returns></member><member name="M:XRL.World.IFastSerializationTypeSurrogate.Serialize(XRL.World.SerializationWriter,System.Object)"><summary>
+            FastSerializes the object into the SerializationWriter.
+            </summary><param name="writer">The SerializationWriter into which the object is to be serialized.</param><param name="value">The object to serialize.</param></member><member name="M:XRL.World.IFastSerializationTypeSurrogate.Deserialize(XRL.World.SerializationReader,System.Type)"><summary>
+            Deserializes an object of the supplied type from the SerializationReader.
+            </summary><param name="reader">The SerializationReader containing the serialized object.</param><param name="type">The type of object required to be deserialized.</param><returns /></member><member name="T:XRL.World.SerializedType"><summary>
+            Stores information about a type or type/value.
+            Internal use only.
+            </summary></member><member name="T:XRL.World.SocialSifrah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenSociableChat">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenListenSympathetically">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenCrackAJoke">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenPayACompliment">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenFlatterInsincerely">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenDebateRationally">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenInvokeAncientCompacts">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenFlirtSuggestively">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenSpinATaleOfWoe">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenTellAnInspiringTale">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenBoastOfAccomplishments">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenRailAgainstInjustice">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenPostureIntimidatingly">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenOfferMaintenanceServices">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenTelepathy">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenEmpathy">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenScanning">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenTenfoldPathSed">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenHookah">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenBit">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenLiquid">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenCharge">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenItem">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenSecret">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenLeverageBeingFavored">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenLeverageBeingLoved">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenReadFromTheCanticlesChromaic">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenLeverageBeingTrueKin">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenDisplayAFarmersToken">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenDisplayAMerchantsToken">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenDisplayAMinstrelsToken">
+            This class is not used in the base game.
+        </member><member name="T:XRL.World.SocialSifrahTokenDisplayABarathrumiteToken">
+            This class is not used in the base game.
+        </member><member name="T:XRL.UI.Framework.CategoryMenuData"><summary>
+              Data Structure for various UI elements to use.
+            </summary></member><member name="T:XRL.UI.Framework.ChoiceWithColorIcon"><summary>
+              Data Structure for various UI elements to use.
+            </summary></member><member name="T:XRL.UI.Framework.FrameworkDataElement"><summary>
+            Base control type
+            </summary></member><member name="T:XRL.UI.Framework.NavigationContext"><summary>
+            Navigation Context describes a smaller section of a larger screen (or perhaps a whole screen for some simple dialogs.)
+            </summary></member><member name="T:XRL.UI.Framework.SummaryBlockData"><summary>
+              Data Structure for various UI elements to use.
+            </summary></member><member name="F:XRL.UI.UITextSkin.text"><summary>
+            Call Apply() after setting this.
+            </summary></member><member name="M:XRL.UI.UITextSkin.SetText(System.String)"><summary>
+            shortcut to set .<paramref name="text" /> then call .Apply()
+            </summary><param name="text" /></member><member name="T:XRL.UI.UIView"><summary>
+            Defines a UI View to be pushed to the Game Manager.  When used on a <c>XRL.UI.IWantsTextConsoleInit</c>, it will be passed the text
+            console and screen buffer at initializtion.  When used on a <c>QupKit.BaseView</c>, it will attach the Unity view to the QupKit views.
+            </summary></member><member name="F:XRL.UI.UIView.NavCategory"><summary>
+            string value used to determine which Rewired input control map to use
+            </summary></member><member name="F:XRL.UI.UIView.UICanvas"><summary>
+            The name of the UI Canvas (Unity) GameObject which should be displayed when this view is active
+            </summary></member><member name="F:XRL.UI.UIView.UICanvasHost"><summary>
+            a flag that determines which canvas host the ui cavnas is on 0=legacy 1=UI Manager
+            </summary></member><member name="F:XRL.UI.UIView.TakesScroll"><summary>
+            a flag that determines if the view allows itself to be zoomed in and out with the mouse wheel
+            </summary></member><member name="T:XRL.UI.IWantsTextConsoleInit"><summary>
+            If implemented by a class with <c>UIView</c> it will call Init passing the TextConsole and ScreenBuffer at load time.
+            </summary></member><member name="T:XRL.UI.ObjectFinder.Context"><summary> 
+              Contexts are created when the object finder is open, and the context has been "enabled".
+            </summary></member><member name="M:XRL.Language.Grammar.FoundPlural(System.String,System.String)">
+            support method for Pluralize()
+        </member><member name="M:XRL.Language.Grammar.FoundThirdPerson(System.String,System.String,System.Boolean)">
+            support method for ThirdPerson()
+        </member><member name="M:XRL.Language.Grammar.ProcessMagnitude(System.Int32@,System.Int32@,System.Text.StringBuilder,System.String)">
+            support method for Cardinal() and Ordinal()
+        </member><member name="M:XRL.Language.Grammar.ProcessMagnitude(System.Int64@,System.Int32@,System.Text.StringBuilder,System.String)">
+            support method for Cardinal() and Ordinal()
+        </member><member name="M:XRL.Language.Grammar.ProcessMagnitudes(System.Int32@,System.Int32@,System.Text.StringBuilder,System.String)">
+            support method for Cardinal() and Ordinal()
+        </member><member name="M:XRL.Language.Grammar.ProcessMagnitudes(System.Int64@,System.Int32@,System.Text.StringBuilder,System.String)">
+            support method for Cardinal() and Ordinal()
+        </member><member name="T:XRL.CharacterBuilds.Qud.UI.AttributeDataElement"><summary>
+              Data Structure for various UI elements to use.
+            </summary></member><member name="T:XRL.CharacterBuilds.Qud.QudSpecificBootHandlersModule"><summary>
+            Contains all the caves of qud specific boot handler logic
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_BEGINBOOT"><summary>
+            fires before anything else happens during game bootup
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERBEGINBOOT"><summary>
+            world progress UI is now setup and the game has an ID
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_CACHERESET"><summary>
+            caches will be reset
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERCACHERESET"><summary>
+            caches are now reset
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_GENERATESEEDS"><summary>
+            game seeds will be setup
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERGENERATESEEDS"><summary>
+            game seeds are now setup
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_INITIALIZESYSTEMS"><summary>
+            typically used to use game.AddSystem(...) your systems
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERINITIALIZESYSTEMS"><summary>
+            typically used to use game.AddSystem(...) your systems
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_INITIALIZEGAMESTATESINGLETONS"><summary>
+            GamestateSingletons are about to be initialized. This will probably be handled rarely.
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERINITIALIZEGAMESTATESINGLETONS"><summary>
+            GamestateSingletons have been initialized. This will probably be handled rarely.
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_BEFOREINITIALIZEHISTORY"><summary>
+            worlds are about to be built
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_INITIALIZEHISTORY"><summary>
+            worlds are about to be built
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERINITIALIZEHISTORY"><summary>
+            worlds have been built
+            element is a HistoryKit.History
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_INITIALIZESULTANHISTORY"><summary>
+            worlds are about to be built
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERINITIALIZESULTANHISTORY"><summary>
+            worlds have been built
+            element is a HistoryKit.History
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_INITIALIZEWORLDS"><summary>
+            worlds are about to be built
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERINITIALIZEWORLDS"><summary>
+            worlds have been built
+            has no element
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_BOOTSTARTINGLOCATION"><summary>
+            element is a GlobalLocation that will be the player's starting cell
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_GENERATERANDOMPLAYERNAME"><summary>
+            generate the player's name if the player didn't choose one
+            element is a string that will be the player's body
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_BEFOREBOOTPLAYEROBJECT"><summary>
+            create the player's GameObject
+            element is a GameObject that will be the player's body
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_BOOTPLAYEROBJECT"><summary>
+            create the player's GameObject
+            element is a GameObject that will be the player's body
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_AFTERBOOTPLAYEROBJECT"><summary>
+            the player's GameObject has been created
+            element is a GameObject that will be the player's body
+            </summary></member><member name="F:XRL.CharacterBuilds.Qud.QudGameBootModule.BOOTEVENT_GAMESTARTING"><summary>
+            the game is just about to start this is the last event before it does
+            has no element
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractBuilderModuleWindowBase.GetNavigationContext"><summary>
+              Returns the UI Framework Context for the "middle chuck" of the window.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractBuilderModuleWindowBase.HasSelection"><summary>
+              If a selection has been made and saved in module data.
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractBuilderModuleWindowBase.UseOverlay"><summary>
+            Checks if the overlay should be shown and enabled on this screen.
+            </summary><returns /></member><member name="P:XRL.CharacterBuilds.AbstractBuilderModuleWindowBase.enabled"><summary>
+                Windows can be individually marked as disabled if need be, but will ultimately
+                be disabled when the module is disabled.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractBuilderModuleWindowBase.GetKeyLegend"><summary>
+            Used to describe any keys used for navigational purposes, but shouldn't be clickable buttons/navigable regions on their own. 
+            I.E. [arrow keys] navigate [enter/space] select
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractBuilderModuleWindowBase.GetKeyMenuBar"><summary>
+            These keys items will be navigable using up/down/left/right, clicks, etc.  Picking one will call HandleMenuOption() on your module.
+            Hotkey Framework TBD // TODO:brian TODO:gnarf
+            </summary><returns /></member><member name="T:XRL.CharacterBuilds.UI.MenuOption"><summary>
+            Used to describe menu options in the shared overlay.
+            </summary></member><member name="T:XRL.CharacterBuilds.EmbarkBuilderModule`1"><summary>
+                AbstractEmbarkBuilderModule with a specific data type.
+            </summary><typeparam name="T">An EmbarkBuilderModuleData type.</typeparam></member><member name="T:XRL.CharacterBuilds.AbstractEmbarkBuilderModule"><summary>
+                Abstract base class for all EmbarkBuilder modules.  Implements the basics and provides many override points.
+            </summary></member><member name="P:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.type"><summary>
+                The string name of the module class.
+            </summary></member><member name="F:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.builder"><summary>
+                A reference to the current EmbarkBuilder
+            </summary></member><member name="F:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.windows"><summary>
+                A dictionary of string keyed window descriptors.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.IncludeInBuildCodes"><summary>
+                Check if the modules data should be included in the build code.
+                Defaults to module is enabled and has data.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.GetSummaryBlock"><summary>
+                Get the summary info block presented by this module.
+            </summary><returns>A SummaryBlockData or null.</returns></member><member name="F:XRL.CharacterBuilds.AbstractEmbarkBuilderModule._enabled"><summary>
+            holds the internal state of the enabled switch
+            </summary></member><member name="P:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.enabled"><summary>
+            use enable() and disable() to change state
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.assembleWindowDescriptors(System.Collections.Generic.List{XRL.CharacterBuilds.EmbarkBuilderModuleWindowDescriptor})"><summary>
+            Return a list of window descriptors. Each descriptor defines a window to be displayed when the module is enabled.
+            </summary><param name="windows" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.enable"><summary>
+            Enable the module. OnEnabled() will be called if the window was not already enabled.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.OnEnabled"><summary>
+            Called after enable() if the window was not already enabled.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.disable"><summary>
+            Disable the module. OnDisabled() will be caled if the window was not already disabled.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.OnDisabled"><summary>
+            Called after disable() if the window was not already disabled.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.handleModuleDataChange(XRL.CharacterBuilds.AbstractEmbarkBuilderModule,XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData,XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData)"><summary>
+            Called when the data for any other module changes.
+            Immediately after this call the module's shouldBeEnabled state will be checked and the module will be enabled or disabled appropriately.
+            </summary><param name="module" /><param name="oldValues" /><param name="newValues" /></member><member name="E:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.OnChange"><summary>
+            Called after the data has been replaced, when the data for a module is changing.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.OnBeforeDataChange(XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData,XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData)"><summary>
+            Called before the data has been replaced, when the data for a module is changing.
+            </summary><param name="oldValues" /><param name="newValues" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.OnDataChange(XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData,XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData)"><summary>
+            Called to perform the data replacement, when the data for a module is changing.
+            You should probably call the base if you override this.
+            </summary><param name="oldValues" /><param name="newValues" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.OnAfterDataChange(XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData,XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData)"><summary>
+            Called after the data has been replaced, when the data for a module is changing.
+            </summary><param name="oldValues" /><param name="newValues" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.setData(XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData)"><summary>
+            Set the data for a module. OnBeforeDataChange, OnDataChange, OnChange and OnAfterDataChange will be called.
+            </summary><param name="values" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.setDataDirect(XRL.CharacterBuilds.AbstractEmbarkBuilderModuleData)"><summary>
+            Set the data for a module. OnBeforeDataChange, OnDataChange, OnChange and OnAfterDataChange WILL NOT be called.
+            </summary><param name="values" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.getDataType"><summary>
+            Returns the typeof the data.
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.getData"><summary>
+            Returns the module data.
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.IsDataValid"><summary>
+            Called to determine if the module is well-configured. By default it is true only if both DataErrors and DataWarnings return null.
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.DataErrors"><summary>
+            A List of errors to print (one per line)
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.DataWarnings"><summary>
+            A List of errors to print (one per line)
+            </summary><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.getModuleRngFromSeed(System.String)"><summary>
+            Get a Random sequence that is seeded with the module type and given seed.
+            </summary><param name="seed" /><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.InitFromSeed(System.String)"><summary>
+            Given a seed, fully initialize your modules values to a valid configuration.
+            </summary><param name="seed" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.RandomSelection"><summary>
+            Initialize your modules values to a random valid configuration.
+            </summary></member><member name="P:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.DefaultData"><summary>
+            The default values when a module is initialized or re-initialized.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.ResetSelection"><summary>
+            Set the value to DefaultData.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.Init"><summary>
+            Perform initialization before the UI is configured.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.bootGame(XRL.XRLGame,XRL.CharacterBuilds.EmbarkInfo)"><summary>
+            Perform module specific game boot behavior.
+            </summary><param name="game" /><param name="info" /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.handleUIEvent(System.String,System.Object)"><summary>
+            Called for any UI event. If no changes or updates to an element are performed, the element should be returned.
+            </summary><param name="id" /><param name="element" /><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.handleBootEvent(System.String,XRL.XRLGame,XRL.CharacterBuilds.EmbarkInfo,System.Object)"><summary>
+            Called for any game boot event. If no changes or updates to an element are performed, the element should be returned.
+            </summary><param name="id" /><param name="game" /><param name="info" /><param name="element" /><returns /></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.onNext"><summary>
+            Behavior when advancing to the next screen. By default builder.advance() is called.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.onBack"><summary>
+            Behavior when returning to the previous screen. By default builder.back() is called.
+            </summary></member><member name="P:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.XmlNodes"><summary>
+                XmlNodes used when parsing the modules file with <c>XmlDataHelper</c></summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.HandleNodes(XRL.XmlDataHelper)"><summary>
+                Parse the XML configuration for this module.
+            </summary><param name="xml">Handle to xml to parse</param></member><member name="P:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.XmlWindowNodes"><summary>
+                Nodes that exist for parsing XmlWindowNodes
+            </summary></member><member name="F:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.CurrentLoadingWindowDescriptor"><summary>
+                Stores the EmbarkBuilderModuleWindowDescriptor being currently being loaded by the XmlDataHelper.
+            </summary></member><member name="M:XRL.CharacterBuilds.AbstractEmbarkBuilderModule.HandleWindowNode(XRL.XmlDataHelper)"><summary>
+                Parses a &lt;window ID="key"&gt; xml node, adding it to the dictionary.
+                Uses a new Guid string if no ID is present(worst case, not reusable).
+                Checks "Class" attribute and looks for the UI type.
+            </summary><param name="xml">A handle the XML window node.</param></member><member name="T:XRL.CharacterBuilds.EmbarkBuilder"><summary>
+            The main Unity MonoBehaviour that controls the new Embark experience.  
+            There can only ever be one of these because it's attached to the GameManager.
+            </summary></member><member name="F:XRL.CharacterBuilds.EmbarkBuilder.finishedEvent"><summary>
+                State of the embark builder selection process.
+            </summary></member><member name="P:XRL.CharacterBuilds.EmbarkBuilder.gameObject"><summary>
+                Static helper to get at the game object.
+            </summary></member><member name="M:XRL.CharacterBuilds.EmbarkBuilder.Begin"><summary>
+                Start the embark builder.
+            </summary><returns>A task that will resolve to the EmbarkInfo or null.</returns><exception cref="T:System.InvalidOperationException">When called from a thread other than the game thread.</exception></member><member name="M:XRL.CharacterBuilds.EmbarkBuilder.checkStateAsync"><summary>
+                Checks the state of the current window for data errors and warnings, potentially showing popup messages.
+                In the event of errors, it will show a dialog box, wait for dismissal and return false.
+                In the event of warnings, it will ask the player to confirm advancing the screen, returning true or false.
+                If no errors or warnings, returns true.
+            </summary><returns>If the current window is "ready" to advance</returns></member><member name="M:XRL.PopulationManager.AddToPopulation(System.String,System.String,XRL.PopulationItem[])"><summary>Add items to a population, next to a sibling object. </summary><param name="table">The Name of the target population.</param><param name="sibling">The Blueprint of the sibling object.</param><param name="items">The items to add.</param><returns>A boolean indicating success or failure.</returns></member><member name="M:XRL.PopulationManager.FindGroup(XRL.PopulationGroup,System.String)"><summary>
+            Recursively searches for a population group with the specified object blueprint or table name.
+            </summary></member><member name="M:XRL.PopulationManager.FindGroup(XRL.PopulationInfo,System.String)"><summary>
+            Recursively searches for a population group with the specified object blueprint or table name.
+            </summary></member><member name="F:XRL.ModSettings.Title"><summary>A copy of the mod's display title, for easier reading of ModSettings.json by humans.</summary></member><member name="F:XRL.ModSettings.Enabled"><value><c>false</c> if the mod has been explicitly disabled by the user; otherwise, <c>true</c>.</value></member><member name="F:XRL.ModSettings.FilesHash"><summary>The last approved hash of all file records within the mod.</summary></member><member name="F:XRL.ModSettings.SourceHash"><summary>The last approved hash of all script content within the mod.</summary></member><member name="F:XRL.ModSettings.Failed"><value><c>true</c> if the mod has failed to compile; otherwise, <c>false</c>.</value></member><member name="F:XRL.ModSettings.Errors"><summary>A list of errors attributed to this mod.</summary></member><member name="F:XRL.ModSettings.Warnings"><summary>A list of warnings attributed to this mod.</summary></member><member name="M:XRL.ModSettings.CalcFilesHash(System.Collections.Generic.IEnumerable{System.IO.FileInfo},System.String)"><summary>
+            Compute the hash value for the specified file records' name and size.
+            </summary><param name="Root">
+            The root mod directory to hash file paths relative to.
+            I.e. same hash result irrespective of what the mod folder's system location is.
+            </param><returns>A hex string of the computed hash code.</returns></member><member name="M:XRL.ModSettings.CalcSourceHash(System.Collections.Generic.IEnumerable{System.IO.FileInfo})"><summary>
+            Compute the hash value for the specified files' contents.
+            </summary><returns>A hex string of the computed hash code.</returns></member><member name="P:XRL.ModManager.ActiveTypes"><summary>
+            Yields every type in <see cref="P:XRL.ModManager.ActiveAssemblies" />.
+            </summary></member><member name="P:XRL.ModManager.ActiveAssemblies"><summary>
+            Yields the current executing assembly followed by any enabled script mod assemblies in priority order.
+            </summary></member><member name="P:XRL.ModManager.ModAssemblies"><summary>
+            Yields enabled script mod assemblies in priority order.
+            </summary></member><member name="M:XRL.ModManager.RegisterMod(XRL.ModInfo)"><summary>
+            Register mod in the manager if a mod with that ID has not already been registered.
+            </summary><returns><c>true</c> if the mod was successfully registered; otherwise, <c>false</c>.</returns></member><member name="M:XRL.ModManager.ResolveType(System.String,System.Boolean,System.Boolean)"><summary>
+            Attempt to find a type within loaded assemblies.
+            Mods are searched first according to priority, followed by the main game assembly.
+            </summary><param name="TypeID">The full name of the type, including namespaces.</param><param name="IgnoreCase"><c>true</c> to ignore the case of the type name; otherwise, <c>false</c>.</param><returns><see cref="T:System.Type" /> if one was found; otherwise, <c>null</c>.</returns></member><member name="M:XRL.ModManager.ReadModSettings(System.Boolean)"><summary>
+            Read current mod settings from ModSettings.json.
+            </summary><param name="Reload">Force reload from disk even if current state in memory (used for undo).</param></member><member name="M:XRL.ModManager.WriteModSettings"><summary>
+            Write current mod settings to ModSettings.json.
+            </summary></member><member name="M:XRL.ModManager.GetMod(System.String)"><summary>
+            Get the mod associated with specified ID.
+            </summary><returns>The <see cref="T:XRL.ModInfo" /> if one by that ID exists; otherwise, <c>null</c>.</returns></member><member name="M:XRL.ModManager.GetMod(System.Reflection.Assembly)"><summary>
+            Get the mod associated with specified assembly.
+            </summary><returns>The <see cref="T:XRL.ModInfo" /> if one defines that assembly; otherwise, <c>null</c>.</returns></member><member name="M:XRL.ModManager.TryGetCallingMod(XRL.ModInfo@,System.Diagnostics.StackFrame@)"><summary>Get the first mod encountered in the currently executing stack.</summary></member><member name="M:XRL.ModManager.TryGetStackMod(System.Exception,XRL.ModInfo@,System.Diagnostics.StackFrame@)"><summary>Get the first mod encountered in the specified exception's stack.</summary></member><member name="M:XRL.ModManager.TryGetStackMod(System.Diagnostics.StackTrace,XRL.ModInfo@,System.Diagnostics.StackFrame@)"><summary>Get the first mod encountered in the specified stack.</summary><remarks>Mostly for logging purposes when the ModInfo isn't readily accessible.</remarks><todo>
+            File name and line number not available even when debug symbols enabled.
+            Possibly due to lack of support for the portable pdb format in current build target.
+            </todo></member><member name="T:XRL.Core.RenderModeType"><summary>
+            Core application object for XRL.
+            </summary></member><member name="M:XRL.Core.XRLCore.LoadEverything"><summary>Force all mod/game sensitive static caches to be loaded</summary></member><member name="T:XRL.XmlDataHelper"><summary>
+            Enhanced XmlTextReader.  Biggest enhancements are the HandleNodes method and DoneWithElement
+            </summary></member><member name="F:XRL.XmlDataHelper.modInfo"><summary>
+            The mod responsible for this stream input.
+            </summary></member><member name="F:XRL.XmlDataHelper.sanityChecks"><summary>
+            Perform (additional) sanity checks.
+            </summary></member><member name="M:XRL.XmlDataHelper.#ctor(System.IO.Stream,XRL.ModInfo)"><summary>
+            Create XmlDataHelper from Stream
+            </summary><param name="input">Input stream</param><param name="modInfo">Mod (or null for base game)</param><returns /></member><member name="M:XRL.XmlDataHelper.#ctor(System.String,XRL.ModInfo)"><summary>
+            Create XmlDataHelper from uri
+            </summary><param name="uri">URL</param><param name="modInfo">Mod (or null for base game)</param><returns /></member><member name="M:XRL.XmlDataHelper.HandleException(System.Exception)"><summary>
+            Logs Exception using mod channel or metrics.
+            </summary><param name="e" /></member><member name="M:XRL.XmlDataHelper.GetSourcePoint"><summary>
+            Quick source code reference to the current reader location.
+            </summary><returns /></member><member name="M:XRL.XmlDataHelper.ParseWarning(System.Object)"><summary>
+            Generate a parser warning.
+            </summary><param name="msg" /></member><member name="M:XRL.XmlDataHelper.AssertExtraAttributes"><summary>
+            Checks if there are any extra unused attributes.  Disabled by sanityChecks false.
+            </summary></member><member name="M:XRL.XmlDataHelper.DoneWithElement"><summary>
+            Current XML element is done. Ensure a self-closing tag, or otherwise empty tag.  Advances the reader past the current node.
+            </summary></member><member name="M:XRL.XmlDataHelper.GetTextNode"><summary>
+            Reads the value of the text node, moves past this node, do not need to call DoneWithElement.
+            </summary><returns>the trimmed up value of the text node</returns></member><member name="M:XRL.XmlDataHelper.HandleNodes(System.Collections.Generic.Dictionary{System.String,System.Action{XRL.XmlDataHelper}})"><summary>
+            Handle children nodes of the current node given a dictionary of node name to Action handler.   Advances the reader past the current node.
+            </summary><param name="nodeHandlers">Map of xml node names to action handlers</param></member><member name="P:XRL.Rules.Stat.LevelUpRandom"><summary>This effectively pulls off a single use System.Random from RandomSeed3, then sets the next seed
+            meerly getting this property will mutate it!</summary></member><member name="M:XRL.EditorFormats.Map.MapFileRegion.SetRegion(XRL.EditorFormats.Map.MapFileRegion,System.Int32,System.Int32)"><summary>Copy the contents of the region to the section of this region matching the upper left x,y corner</summary></member><member name="M:XRL.EditorFormats.Map.MapFileRegion.MaxX(System.Boolean)"><summary>The x position of the right most in use cell, -1 if no cells are in use</summary></member><member name="M:XRL.EditorFormats.Map.MapFileRegion.MaxY(System.Boolean)"><summary>The y position of the bottom most in use cell, -1 if no cells are in use</summary><param>requireObjects: when true, the cell found must have at least one object in it</param></member><member name="F:XRL.ModInfo.Path"><summary>The system location of this mod's folder.</summary></member><member name="F:XRL.ModInfo.ID"><summary>A unique identifier for this mod.</summary><seealso cref="M:XRL.ModManager.RegisterMod(XRL.ModInfo)" /></member><member name="F:XRL.ModInfo.Source"><summary>The load origin of this mod, e.g. the local mods folder or steam workshop.</summary></member><member name="F:XRL.ModInfo.Directory"><inheritdoc cref="F:XRL.ModInfo.Path" /></member><member name="F:XRL.ModInfo.Assembly"><summary>The final compiled assembly of all <see cref="F:XRL.ModInfo.ScriptFiles" />.</summary></member><member name="F:XRL.ModInfo.Harmony"><summary>A harmony instance using <see cref="F:XRL.ModInfo.ID" />.</summary></member><member name="F:XRL.ModInfo.ScriptFiles"><summary>A list of all visible files within <see cref="F:XRL.ModInfo.Directory" /> that have a <c>cs</c> extension.</summary></member><member name="F:XRL.ModInfo.XMLFiles"><summary>A list of all visible files within <see cref="F:XRL.ModInfo.Directory" /> that have an <c>xml</c> extension.</summary></member><member name="F:XRL.ModInfo.LoadPriority"><summary>The load priority of this mod, lower values will be prioritized over higher ones.</summary><seealso cref="M:XRL.ModManager.SortModInfo(XRL.ModInfo,XRL.ModInfo)" /></member><member name="F:XRL.ModInfo.IsScripting"><value><c>true</c> if this mod contains any <see cref="F:XRL.ModInfo.ScriptFiles" />; otherwise, <c>false</c>.</value></member><member name="F:XRL.ModInfo.IsApproved"><value><c>true</c> if this mod has been approved by the user; otherwise, <c>false</c>.</value><seealso cref="M:XRL.ModInfo.CheckApproval" /></member><member name="F:XRL.ModInfo.Size"><summary>The total size in bytes of all visible files within <see cref="F:XRL.ModInfo.Directory" />.</summary><seealso cref="M:XRL.ModInfo.CheckApproval" /></member><member name="F:XRL.ModInfo.Settings"><summary>The mod's stored state which is flushed to disk when the mod manager is closed.</summary><seealso cref="M:XRL.ModInfo.LoadSettings" /></member><member name="F:XRL.ModInfo.Manifest"><summary>A manifest.json read from the mod's root <see cref="F:XRL.ModInfo.Directory" />.</summary><seealso cref="M:XRL.ModInfo.ReadConfigurations" /></member><member name="F:XRL.ModInfo.WorkshopInfo"><summary>A workshop.json read and written to the mod's root <see cref="F:XRL.ModInfo.Directory" />.</summary><seealso cref="M:XRL.ModInfo.ReadConfigurations" /></member><member name="F:XRL.ModInfo.TextureConfiguration"><summary>A modconfig.json read from the mod's root <see cref="F:XRL.ModInfo.Directory" />.</summary><remarks>This might be obsoleted in the future with a per-file texture configuration like <c>"cute_snapjaw.png.cfg"</c>.</remarks><seealso cref="M:XRL.ModInfo.ReadConfigurations" /></member><member name="P:XRL.ModInfo.IsEnabled"><summary>
+            Gets or sets a value that determines if this mod is enabled.
+            </summary><value><c>true</c> if the mod has been approved, enabled, and successfully compiled; otherwise, <c>false</c>.
+            </value></member><member name="P:XRL.ModInfo.State"><summary>
+            An enum representation of the mod's current state: lacks approval, failed to compile, enabled, disabled.
+            </summary></member><member name="P:XRL.ModInfo.DisplayTitleStripped"><summary><see cref="P:XRL.ModInfo.DisplayTitle" /> stripped of ANSI formatting.</summary></member><member name="P:XRL.ModInfo.DisplayTitle"><summary>
+            A display title for the <see cref="T:Qud.UI.ModManagerUI" />.
+            </summary></member><member name="M:XRL.ModInfo.Initialize"><summary>
+            Initialize the mod info instance based on folder contents.
+            </summary></member><member name="M:XRL.ModInfo.ReadConfigurations"><summary>
+            Read mod root configuration files: manifest.json, config.json, workshop.json, modconfig.json.
+            </summary></member><member name="M:XRL.ModInfo.LoadSettings"><summary>
+            Load settings by ID from <see cref="F:XRL.ModManager.ModSettingsMap" />.
+            </summary></member><member name="M:XRL.ModInfo.CheckFiles"><summary>
+            Check for script and XML files within the mod directory and sort them into their respective lists.
+            </summary></member><member name="M:XRL.ModInfo.CheckApproval"><summary>
+            Check if script mod is approved by verifying that <see cref="F:XRL.ModSettings.FilesHash" /> and <see cref="F:XRL.ModSettings.SourceHash" /> match current mod contents.
+            </summary></member><member name="M:XRL.ModInfo.Approve"><summary>
+            Approve the mod and update hashes with current mod data.
+            </summary></member><member name="M:XRL.ModInfo.ConfirmFailure"><summary>
+            Display a popup to the user with failure information and ask to retry.
+            Clears <see cref="F:XRL.ModSettings.Failed" /> on success or no errors.
+            </summary></member><member name="M:XRL.ModInfo.LogToClipboard"><summary>
+            Write mod error and warning messages to the clipboard.
+            </summary></member><member name="M:XRL.ModInfo.GetSprite"><summary>
+            Get unity sprite of image defined in manifest.json or workshop.json.
+            </summary></member><member name="M:XRL.ModInfo.EnumerateAllFiles(System.IO.DirectoryInfo)"><summary>
+            Enumerate files in directory and subdirectories, excluding hidden entries.
+            </summary><param name="Directory">The directory to enumerate through, defaults to the current mod directory.</param></member><member name="M:XRL.ModInfo.Warn(System.Object)"><summary>
+            Log a warning with mod context.
+            </summary><remarks>Also added to <see cref="F:XRL.ModSettings.Warnings" />.</remarks></member><member name="M:XRL.ModInfo.Error(System.Object)"><summary>
+            Log an error with mod context.
+            </summary><remarks>Also added to <see cref="F:XRL.ModSettings.Errors" />.</remarks></member><member name="M:XRL.ModInfo.ApplyHarmonyPatches"><summary>
+            Apply harmony patches from this mod's assembly, if it has any.
+            </summary><remarks>Uses <see cref="F:XRL.ModInfo.ID" /> as the ID for the <see cref="F:XRL.ModInfo.Harmony" /> instance.</remarks></member><member name="M:XRL.ModInfo.UnapplyHarmonyPatches"><summary>
+            Unapply harmony patches using this mod's <see cref="F:XRL.ModInfo.ID" />.
+            </summary></member><member name="M:XRL.ModInfo.InitializeWorkshopInfo(System.UInt64)"><summary>
+            Initialize a new <see cref="T:XRL.SteamWorkshopInfo" /> instance with <paramref name="PublishedFileId" />.
+            </summary></member><member name="M:XRL.ModInfo.SaveWorkshopInfo"><summary>
+            Save workshop.json to mod directory.
+            </summary></member><member name="P:XRL.The.Game">
+            you just lost
+        </member><member name="T:XRL.SifrahGame">
+            This class is not used in the base game.
+        </member><member name="T:XRL.SifrahRenderable">
+            This class is not used in the base game.
+        </member><member name="T:XRL.SifrahToken">
+            This class is not used in the base game.
+        </member><member name="T:XRL.SifrahPrioritizable">
+            This class is not used in the base game.
+        </member><member name="T:XRL.SifrahPrioritizableToken">
+            This class is not used in the base game.
+        </member><member name="T:XRL.SifrahSlotConfiguration">
+            This class is not used in the base game.
+        </member><member name="T:XRL.SifrahSlot">
+            This class is not used in the base game.
+        </member><member name="M:XRL.SteamWorkshopInfo.OpenWorkshopPage"><summary>
+            Open the mod's workshop page in the steam overlay, client, or browser.
+            </summary></member><member name="T:XRL.HasGameBasedStaticCacheAttribute"><summary>Signals new game to reset something about this class when a game starts.
+            Will call a <c>[GameBasedCacheInit] static void Reset()</c> if defined, as well as check for fields marked
+            with <c>GameBasedStaticCacheAttribute</c>.</summary></member><member name="T:XRL.PreGameCacheInitAttribute"><summary> Valid on either [HasModSensitiveCache] or [HasGameBasedStaticCache] types </summary></member><member name="T:XRL.HasModSensitiveStaticCacheAttribute"><summary>Will look for a [ModSensitiveCacheInit] static void Method(), and reset any [ModSensitiveStaticCache] fields</summary></member></members></doc>
