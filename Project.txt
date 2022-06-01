@@ -21,23 +21,44 @@
             > b: pre-release tag, show the state of the project, -alpha, -beta, 
 
 [mechanics]
-	<systems>
-		> trait systems
-		> mutation systems
-		> cook systems
-        > inventory system
-        > equipment system
+	> trait systems
+	> mutation systems
+		* will behave as equipment
+		* aparence changes
+		* 1 ~ 3
+		* positive and negative points
+	> cook systems
+	> inventory system
+	> equipment system
 		
-	<world generation>
-		> procedure generation
-		> starting map
+[world]
+	> procedure generation
+	> non-procedure starting map
+	> buildings and houses
+	> world lore
+		[an fallout-like world that has been filled with radiation by an unparalel nuclear war, creating all type of mutants: humanoid mutaded creatures,
+		huge centipedis, giant spiders and all sort of lethal creatures
+		]
 		
-    <assets>
-        > skeletons and animation rigs 
-        > animals models
-        > npcs models
-        > player models
-        > houses models
-        > tree models
-        > grass models
+[assets]
+	> skeletons and animation rigs 
+	> animals models
+	> npcs models
+	> player models
+	> houses models
+	> tree models
+	> grass models
+	
+[creatures]
+	> humanoids
+		* humans
+		* mutated
+	> mammals, birds and reptiles
+		* hostile
+		* neutral
+		* friendly
+	> insects
+		* hostiles arachnids(spiders-like and scorpion-like)
+		* friendly lepidoptera(moths)
+		* hostiles myriapoda(centipede)
         
