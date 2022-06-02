@@ -5,3 +5,31 @@
 	> adding refs: AI, apparel, camera, creaturesModels, ragdoll, skeleton, and traits
 	> renaming project name to 'IsometricProject'
 	> init git project isometric v. 0.0.0
+	> asset/ and subfolder created:
+		- asset/
+			- mesh/
+				- apparel/
+				- building/
+				- entity/
+					- bird/
+					- humanoid/
+						- mankind/
+						- mutto/
+					- insect/
+					- mammal/
+					- reptile/
+				- mutation/
+				- world/
+			- texture/
+				- apparel/
+				- building/
+				- entity/
+					- bird/
+					- humanoid/
+						- mankind/
+						- mutto/
+					- insect/
+					- mammal/
+					- reptile/
+				- mutation/
+				- world/

@@ -6,10 +6,6 @@
         * models: blender
 		* image files: XnViewMP
 			- .map, .BGA, .DDS, .BMP
-		* BSA files: bethesda archive extractor
-			- .BSA
-		* refs: TES5Edit
-			- .esp
 
     <version nomeclature>
         * scheme: semantic versoning
