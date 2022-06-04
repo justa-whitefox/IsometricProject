@@ -10,7 +10,7 @@
 			- mesh/
 				- apparel/
 				- building/
-				- entity/
+				- creature/
 					- bird/
 					- humanoid/
 						- mankind/
@@ -23,7 +23,7 @@
 			- texture/
 				- apparel/
 				- building/
-				- entity/
+				- creature/
 					- bird/
 					- humanoid/
 						- mankind/
@@ -33,3 +33,5 @@
 					- reptile/
 				- mutation/
 				- world/
+				
+	> changed assets folder to reference/ as ref__assets/
