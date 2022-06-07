@@ -1,4 +1,5 @@
 [v. 0.0.0]
+	> project created: 31/05/2022; day 31 of may 2022
     > Project Created And Named 'isometric Game' in 'pessoalProject' folder
     > Solution And References Folder Created
     > Add Eldritch And Cave Of Qud References
@@ -35,3 +36,7 @@
 				- world/
 				
 	> changed assets folder to reference/ as ref__assets/
+	> changed log name from project.txt to readmap.txt
+	> added reference folder in References/ called proj__survivalMechanic
+	> changed References/arachnisPreset to References/proj__terrainGeneration
+	> game name chosen: 'Arachnis Cave'
