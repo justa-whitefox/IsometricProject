@@ -1,0 +1,127 @@
+[tecnology and nomenclatures]
+    <tecnology>
+        * language: c#
+        * graphic API: openGL/dx10
+        * game engine: unity
+        * models: blender
+
+    <version nomeclature>
+        * scheme: semantic versoning
+        * how it works: major.minor.patch.pre-release tag
+            > 1.4.0b
+            > 1: major version, bigger changers with high risks
+            > 4: minor version, new non-breaking features
+            > 0: patch version, other non-breaking and bugfix features
+            > b: pre-release tag, show the state of the project, -alpha, -beta, 
+
+[World lore]	
+	* a fallout-like world that has been filled with radiation by an unparalleled nuclear war
+	* the manKing, survive on underground, with machines and tecnology created during the war, without know that there is survivals in the surface, those who mutated to stronger, with animals-like caracteristics that help then to survive in a world filled with lethal creatures who follow the law of jungle,
+	* a few of that developed not only habilites, but also intelect,
+	* with time this inteligent animal agroup they similar in tribes, an so the survivals of the manking in the surface, 
+	* the strongest of this tribes been the arachnis, that only accept member with spider-oriented mutation
+		
+
+[world]
+	> procedure generated terrain[WIP]
+	> terraformation with voxels(marching cubes)
+	> water 
+	> caves procedure generated 
+	> spawn points
+	> trees and rocks using spawn points
+	> buildings
+	> houses
+	> villages
+	> temperature 
+	
+[GUI]
+	> inventory and equipment 
+	> character sheets
+	> skills (kenshi-like)
+	
+[creatures]
+	> humanoids
+		[built]
+			* modeling
+			* models details
+			* texturing
+			* riging
+			* animate
+			
+		[characteristics] 
+			*[PC] normal humans(pure kind): (more dependent on equipments, weaker body, low resistence to temperature, high metabolism(hunger, thirst, stamina))
+			*[NPC] mutated humans(muttos): (can't use most of equipments, stronger body, depend on type(cold blood or not) will have a hight resistence or weakness to temperature, low or high metabolism(hunger, thirst, stamina))
+			*[NPC] spider-like humans(arachnis): (can't use most of equipment, weaker body, high dexterity, high movement and attack speed, cold blood, high resistence, extreme low metabolism)
+			* all humanoids will have a trait system that count the characteristic and skills 
+		
+	> animals(mammals, birds and reptiles)
+		[built]
+			* modeling
+			* models details
+			* texturing
+			* riging(armature, bones)
+			* animate
+			
+		[characteristics]
+			* carnivores always hostiles
+			* herbivores always neutral or friendly
+			* armour and weapons materials
+		
+	> insects(scorpions, centipeds, moths)
+		[built]
+			* modeling
+			* models details
+			* texturing
+			* riging(armature, bones)
+			* animate
+			
+		[characteristics]
+			* hostiles and neutral(scorpions, centipeds, etc)
+			* friendly(only moths)
+			* maybe procedure animated
+			* good armour materials
+			
+	> arachnis
+		[built]
+			* modeling
+			* models details
+			* texturing
+			* riging(armature, bones)
+			* animate
+			
+		[characteristic]
+			* the strongests will be humanoid
+			* mostly hostiles, fewer neutral
+			* procedure animated
+			* more effort on AI
+			
+[Systems]
+	> trait system
+		* 3 ~ 5
+		* fewer will change aparences
+		
+	> craft
+		* more realistic
+		* will depend on skills and workbench
+		
+	> blacksmith
+		* furnace(ex.: hot iron) -> anvil(ex.: iron sword blade[poorly made]) -> workbench(ex.: iron sword[poorly made])
+		
+	> heath
+		* based on body parts(kenshi-like)
+		
+	> thirst
+	> stamina
+	> hunger
+	> encubrance
+	> temperature
+		
+	> equipment
+	
+	> building system
+		* 7days-like
+		
+	> cook systems
+	> inventory system
+		
+[Optimizations]
