@@ -51,6 +51,3 @@ refs__blenderRiging/
 
 game__ArachnisCave/
 	* create my first full game
-	
-game__rustClone/
-	* create a survival game clone

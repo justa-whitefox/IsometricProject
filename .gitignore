@@ -1,5 +1,11 @@
-proj__terrainGeneration/Library
-proj__terrainGeneration/Logs
-proj__terrainGeneration/Packages
-proj__terrainGeneration/Temp
-proj__terrainGeneration/UserSettings
+proj__terrainGeneration/Library/
+proj__terrainGeneration/Logs/
+proj__terrainGeneration/Packages/
+proj__terrainGeneration/Temp/
+proj__terrainGeneration/UserSettings/
+
+proj__gameMechanics/Library/
+proj__gameMechanics/Logs/
+proj__gameMechanics/Packages/
+proj__gameMechanics/Temp/
+proj__gameMechanics/UserSettings/
