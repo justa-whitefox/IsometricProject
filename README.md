@@ -14,23 +14,11 @@ proj__terrainGeneration/
 	> normals
 	> colliders
 	
-proj__marchingCubes/
-	* learn how marching cubes generation works
-	
 proj__characterMovement/
 	* learn about chacter movement, 3rd person and 1st person
 	
 proj__characterAnimation/
 	* learn how animate  a game character: jumping, choping, havesting, building, smithing, etc.
-	
-proj__GUIs/
-	* learn how create GUIs: main menus, config menus, UI, inventory systems
-	
-proj__BlacksmithSystem/
-	* learn how create a realistc smithing systems
-	
-proj__BuildingSystem/
-	* learn how create a building system, like 7days, rust, space engeneer
 	
 proj__GameMechanics/
 	* learn how implement game mechanics like: health, thirst, stamina, hunger, sprint, jump, etc.
@@ -45,9 +33,6 @@ proj__Post-Processing/
 	
 refs__blenderModels/
 	* learn how create 3d models in blender
-	
-refs__blenderRiging/
-	* learn riging in blender
 
-game__ArachnisCave/
+game__SmithAndBuild/
 	* create my first full game
