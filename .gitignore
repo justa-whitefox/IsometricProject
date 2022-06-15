@@ -9,3 +9,9 @@ proj__gameMechanics/Logs/
 proj__gameMechanics/Packages/
 proj__gameMechanics/Temp/
 proj__gameMechanics/UserSettings/
+
+game__SmithAndBuild/Library/
+game__SmithAndBuild/Logs/
+game__SmithAndBuild/Packages/
+game__SmithAndBuild/Temp/
+game__SmithAndBuild/UserSettings/
