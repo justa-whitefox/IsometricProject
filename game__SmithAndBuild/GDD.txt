@@ -20,6 +20,23 @@
 		* terrain
 		* ambient
 			- trees
-				* Aspen Trees: live for 40 ~ 150 years, 15 ~ 30m tall,
-							 : has brights yellowish ~ deep red leaves in the autumn, and white barks with black marks,
-							 : cold biomes, and regions with only pine trees and others aspen trees.
+				* Aspen Trees : live for 40 ~ 150 years, 15 ~ 30m tall,
+							  : has brights yellowish ~ deep red leaves in the autumn, and white barks with black marks,
+							  : cold biomes, and regions with only pine trees and others aspen trees.
+							 
+				* Pine Trees  : live for 100 ~ 1000 years, 30 ~ 50m tall,
+							  : has brownish ~ redish bark, with needle-like leaves that varies from 6 - 30cm long, with pine frutes that varies on color between greenish ~ brownish pended on, 
+							  : from more neutral temperatures to cold biomes like taiga, along with all type of evergreen regions.
+							 
+				* Bamboo Trees: 
+							  : lifespan of 7 ~ 100 yeas, the height varies between 15cm ~ 40m tall,
+							  : a thin and curved hollow body with greenish bark, and rings that remember joins,
+							  : native to warm and most tropical biomes but can grown in hot tropical ~ cool mountains regions.
+							  
+				* Ebony Trees :
+							  :
+							  :
+				
+				* Oak Trees   :
+							  :
+							  :
