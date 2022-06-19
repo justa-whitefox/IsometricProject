@@ -1,0 +1,81 @@
+[GAME DESIGN DOCUMENT]
+	> major details
+		* Genre: contenplative with craft-like system, with focus on immersion and realism
+		* WorldBuilding: nature-oriented and with focus on exploration and nature views, medieval age tecnology
+		* story: 
+		* visual asthetic: stylized and lowpoly-like
+		* audio design: BGM using nature sounds
+		* tools: unity, blender, unity C#
+		
+	> version nomeclature
+        * scheme: semantic versoning
+        * how it works: major.minor.patch.pre-release tag
+            > 1.4.0b
+            > 1: major version, bigger changers with high risks
+            > 4: minor version, new non-breaking features
+            > 0: patch version, other non-breaking and bugfix features
+            > b: pre-release tag, show the state of the project, -alpha, -beta, 
+
+	> game details
+		* terrain
+		* ambient
+			- trees
+				* Aspen Trees : live for 40 ~ 150 years, 15 ~ 30m tall,
+							  : has brights yellowish ~ deep red leaves in the autumn, and white barks with black marks,
+							  : cold biomes, and regions with only pine trees and others aspen trees.
+							 
+				* Pine Trees  : live for 100 ~ 1000 years, 30 ~ 50m tall,
+							  : has brownish ~ redish bark, with needle-like leaves that varies from 6 - 30cm long, with pine frutes that varies on color between greenish ~ brownish pended on, 
+							  : from more neutral temperatures to cold biomes like taiga, along with all type of evergreen regions.
+							 
+				* Bamboo Trees: 
+							  : lifespan of 7 ~ 100 yeas, the height varies between 15cm ~ 40m tall,
+							  : a thin and curved hollow body with greenish bark, and rings that remember joins,
+							  : native to warm and most tropical biomes but can grown in hot tropical ~ cool mountains regions.
+							  
+				* Ebony Trees : live for 60 ~ 200 years, reaches a height of 20 ~ 30m,
+							  : has thick bark wich varies in color between whitish brawn ~ dark brown, and a dense black hardwood.
+							  : native to warm and arid regions, apear also in tropical forests.
+				
+				* Oak Trees   :
+							  :
+							  :
+							  
+				* Cherry Trees: live for 30 ~ 40 years, usualy 10m tall with branchs 3.5 ~ 4.5m Wide,
+							  : has a dark brown bark with white ~ pinkish flower and leaves that only blossom in spring,
+							  : subtropical and tropical climates with middle latitude.
+							  
+	> RoadMap
+		[Terrain]
+			* procedure generated
+			* biomes
+			
+		[Props]
+			* trees(WIP)
+			* bushes
+			* stones
+			* ores
+			* grass, mushrooms
+			
+		[Models]
+			* refined ores
+			* armours
+			* tools
+			* weapons
+			* itens
+			
+		[characters]
+			* NPCS
+			* criatures
+			* animals
+			* player controler
+			
+		[mechanics]
+			* smith
+			* craft
+			
+		[animation]
+			* run
+			* jump
+			* chop 
+			* interaction
