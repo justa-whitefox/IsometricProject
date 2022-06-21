@@ -21,8 +21,8 @@ namespace StarterAssets
         [Tooltip("Sprint speed of the character in m/s")]
         public float SprintSpeed = 5.335f;
 
-        [Tooltip("Rotation speed of the character")]
-		public float RotationSpeed = 1.0f;
+        //[Tooltip("Rotation speed of the character")]
+		//public float RotationSpeed = 1.0f;
 
         [Tooltip("How fast the character turns to face movement direction")]
         [Range(0.0f, 0.3f)]
