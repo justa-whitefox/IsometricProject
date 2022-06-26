@@ -1,11 +1,15 @@
 proj__gameMechanics/Library/
+proj__gameMechanics/MonoBleedingEdge/
+proj__terrainGeneration/ProjectSettings/
 proj__gameMechanics/Logs/
 proj__gameMechanics/Packages/
 proj__gameMechanics/Temp/
 proj__gameMechanics/UserSettings/
 
-game__SmithAndCraft/Library/
-game__SmithAndCraft/Logs/
-game__SmithAndCraft/Packages/
-game__SmithAndCraft/Temp/
-game__SmithAndCraft/UserSettings/
+proj__terrainGeneration/Library/
+proj__terrainGeneration/MonoBleedingEdge/
+proj__terrainGeneration/ProjectSettings/
+proj__terrainGeneration/Logs/
+proj__terrainGeneration/Packages/
+proj__terrainGeneration/Temp/
+proj__terrainGeneration/UserSettings/

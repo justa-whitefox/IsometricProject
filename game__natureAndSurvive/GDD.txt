@@ -1,0 +1,146 @@
+[GAME DESIGN DOCUMENT]
+	> Major details
+		* game name: suceptive to changes
+		* Genre: contemplative with craft-like system, with focus on immersion and realism, and survival inspired mechanics.
+		* WorldBuilding: nature-dominant, with focus on exploration, flora and fauna, contemplation, medieval age tecnology and small survival theme
+		* story: 
+		* visual asthetic: lowpoly-like with heavy focus on lighting
+		* audio design: undefined
+		* tools: unity, blender, unity C#
+		
+	> Version nomenclature
+        * scheme: semantic versoning
+        * how it works: major.minor.patch.pre-release tag
+            > 1.4.0b
+            > 1: major version, bigger changers with high risks
+            > 4: minor version, new non-breaking features
+            > 0: patch version, other non-breaking and bugfix features
+            > b: pre-release tag, show the state of the project, -alpha, -beta.
+			
+	> Nomenclatures and Initials
+		> PC: Player Character
+		> native: game npcs
+		> flora: all kind of flower, trees etc, sentient, aggressive or only Props.
+		> fauna: all kind of non-npc, non-flora creatures, including passive, neutral and aggressive animals.
+		> rarity: common, rare, extreme rare, unique.
+		> project state: WIP = Work in Progress, Queue = on Queue list, Done = Finished, OnSearch = mechanic being searched
+
+	> game details
+		* terrain
+			- Biomes
+			
+		* Environment
+			- Biomes:
+				* rainforest : tropical or rainfores, highest species diversity, 27°C or 60°F, rainy and dry seasons, hight temperatures and heavly rainfall
+							 : dense forest with broadleaf trees, mosses, fern, palms and orchids.
+							 : trees growth very dense and block most of the ligh.
+							 : home for mostly tree animals(monkeys, snakes, frogs, lizards, small mammals).
+							 : soil useless for agreculture.
+							 : subcategores: evergreen(rain all year), 
+											 Dry(leaveless trees, dry seasons)
+											 montane(mist or fog all year, mostly conifers)
+											 tropical(dry and warm, with conifers)
+				
+				* temperate: temperate forest, 
+				
+			- Flora:
+				* Aspen Trees : live for 40 ~ 150 years, 15 ~ 30m tall,
+							  : has brights yellowish ~ deep red leaves in the autumn, and white barks with black marks,
+							  : cold biomes, and regions with only pine trees and others aspen trees.
+							  : common
+							 
+				* Pine Trees  : live for 100 ~ 1000 years, 30 ~ 50m tall,
+							  : has brownish ~ redish bark, with needle-like leaves that varies from 6 - 30cm long, with pine frutes that varies on color between greenish ~ brownish pended on, 
+							  : from more neutral temperatures to cold biomes like taiga, along with all type of evergreen regions.
+							  : common
+							 
+				* Bamboo Trees: 
+							  : lifespan of 7 ~ 100 yeas, the height varies between 15cm ~ 40m tall,
+							  : a thin and curved hollow body with greenish bark, and rings that remember joins,
+							  : native to warm and most tropical biomes but can grown in hot tropical ~ cool mountains regions.
+							  : common
+							  
+				* Ebony Trees : live for 60 ~ 200 years, reaches a height of 20 ~ 30m,
+							  : has thick bark wich varies in color between whitish brawn ~ dark brown, and a dense black hardwood.
+							  : native to warm and arid regions, apear also in tropical forests.
+							  : Rare
+							  : aggressive flora
+				
+				* Oak Trees   :
+							  :
+							  :
+							  
+				* Cherry Trees: live for 30 ~ 40 years, usualy 10m tall with branchs 3.5 ~ 4.5m Wide,
+							  : has a dark brown bark with white ~ pinkish flower and leaves that only blossom in spring,
+							  : subtropical and tropical climates with middle latitude.
+							  : Extreme Rare
+							  : aggressive flora.
+							  
+			- Fauna:
+				* 
+							  
+	> RoadMap
+		[Terrain]
+			* procedure generated[OnSearch]
+			* biomes
+			* temperature
+			* limited 
+			* separeted on regions
+			
+		[UI]
+			* Main Menu
+			* In-Game Menu
+			* Configuration Menu
+			
+		[Player]
+			* player controller
+			* player interaction
+			* player reactions
+			* player stat buffs and debuffs
+			
+		[Environment]
+			* trees[WIP]
+				> nomeclature: CherryTree_AggressiveBig (Name, status, characteristic)
+			* bushes
+			* stones
+			* ores
+			* grass, mushrooms
+			
+		[Objects]
+			* refined ores
+			* armours
+			* tools
+			* weapons
+			* itens
+			
+		[characters]
+			* Natives
+			* Fauna
+			* Player Characters
+			
+		[mechanics]
+			* smith
+			* craft
+			
+			
+		[animation]
+			* walk (fauna, natives, PC)
+			* run (fauna, natives, PC)
+			* trot (fauna)
+			* jump (fauna, natives, PC)
+			* chop (PC)
+			* interact (PC)
+			* attack (fauna, aggressive flora, natives, PC)
+			* swim (fauna, natives, PC)
+			* defend (fauna, natives, PC)
+			
+		[IA]
+			* natives IA
+			* fauna IA
+			* flora IA
+		
+		[Optimization]
+			* batch materials
+			* clean unused edge, vertices and overlaping faces on models
+			
+		

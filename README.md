@@ -3,16 +3,6 @@ i will start learning each mechanics at a time
 projects to be used to learn this mechanics:
 
 proj__GameMechanics/
-	* learn how procedural terrain generation with meshs and marching cubes is implemented
-		> Perlin Noise
-		> Height map
-		> colour map
-		> Mesh map
-		> Infinite Terrain
-		> Chunk Load and Unload
-		> LOD(Level Of Detail)
-		> normals
-		> colliders
 	* learn about chacter movement, 3rd person and 1st person
 	* learn how animate  a game character: jumping, choping, havesting, building, smithing, etc.
 	* learn how implement game mechanics like: health, thirst, stamina, hunger, sprint, jump, etc.
@@ -22,6 +12,18 @@ proj__GameMechanics/
 		> Physics
 		> Lighting and Reflection
 		> DOF(Depth of Field)
+		
+proj__terrainGeneration/
+	* learn the process of procedural generation on terrains
+		> Perlin Noise
+		> Height map
+		> colour map
+		> Mesh map
+		> Infinite Terrain
+		> Chunk Load and Unload
+		> LOD(Level Of Detail)
+		> normals
+		> colliders
 
-game__SmithAndCraft/
+game__Nature&Survive/ /*suceptive to changes*/
 	* create a game prototype implementing the mecanics learned in a real project
