@@ -1,10 +1,12 @@
 using Unity.Burst;
-using Unity.Collection;
+using UnityEngine;
+using Unity.Collections;
 using Unity.Jobs;
 using Unity.Mathematics;
-using UnityEngine;
 using static Unity.Mathematics.math;
 using quaternion = Unity.Mathematics.quaternion;
+
+/*
 
 public class Fractal : MonoBehaviour {
 
@@ -30,7 +32,7 @@ public class Fractal : MonoBehaviour {
 			parts[i] = part;
 
 			float3x3 r = float3x3(part.worldRotation) * scale;
-			matrices[i] = float3x4(r.c0, r.c1, r.c2, part.worldPosition);
+			//matrices[i] = float3x4(r.c0, r.c1, r.c2, part.worldPosition);
         }
     }
 
@@ -158,3 +160,5 @@ public class Fractal : MonoBehaviour {
         jobHandle.Complete();
     }
 }
+
+*/

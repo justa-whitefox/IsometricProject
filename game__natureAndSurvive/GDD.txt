@@ -1,12 +1,12 @@
 [GAME DESIGN DOCUMENT]
 	> Major details
-		* game name: suceptive to changes
-		* Genre: contemplative with craft-like system, with focus on immersion and realism, and survival inspired mechanics.
+		* game name: /*Nature&Survive*/ suceptible to changes
+		* Genre: contemplative survival, with focus on immersion and realism.
 		* WorldBuilding: nature-dominant, with focus on exploration, flora and fauna, contemplation, medieval age tecnology and small survival theme
-		* story: 
-		* visual asthetic: lowpoly-like with heavy focus on lighting
+		* story: undefined
+		* visual asthetic: Stylized, not-realistic, not-cartoonish
 		* audio design: undefined
-		* tools: unity, blender, unity C#
+		* tools: unity 2021.3.4f1 LTS, blender, C#
 		
 	> Version nomenclature
         * scheme: semantic versoning
@@ -27,7 +27,9 @@
 
 	> game details
 		* terrain
-			- Biomes
+			- Biome
+			- Danger Zones
+			- Territories
 			
 		* Environment
 			- Biomes:
@@ -85,18 +87,18 @@
 			* biomes
 			* temperature
 			* limited 
-			* separeted on regions
-			
-		[UI]
-			* Main Menu
-			* In-Game Menu
-			* Configuration Menu
+			* separated on regions and territories
 			
 		[Player]
 			* player controller
 			* player interaction
 			* player reactions
 			* player stat buffs and debuffs
+			
+		[UI]
+			* Main Menu
+			* In-Game Menu
+			* Configuration Menu
 			
 		[Environment]
 			* trees[WIP]
@@ -116,11 +118,17 @@
 		[characters]
 			* Natives
 			* Fauna
-			* Player Characters
+			* Unique Characters
 			
 		[mechanics]
 			* smith
 			* craft
+			* Sneeak
+			* self-defence
+			* medicine
+			* mine
+			* chop
+			* hunt(with bow)
 			
 			
 		[animation]
